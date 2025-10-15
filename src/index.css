@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Playball&display=swap");
+@import 'tailwindcss';
+
+@theme {
+    --font-playfair: 'Playfair Display', serif;
+    --font-playball: 'Playball', cursive;
+    --color-gold: #FFC600;
+}
+
+@layer base {
+    body {
+        @apply bg-white text-black;
+    }
+}
+
+/*hero css*/
+
+.hero-background {
+    background-image: url('src/assets/images/gourmet-kitchen.webp');
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    height: 50vh;
+    width: 100vw;
+    background-position: center;
+    position: relative;
+}
+
+.hero-background::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('src/assets/images/gourmet-kitchen.webp');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.6) saturate(1.2) contrast(1.15);
+    z-index: 1;
+}
+
+.hero-background > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* Navbar CSS */
+nav {
+    overflow: visible !important;
+    margin-top: 2rem; /* Separación del top */
+}
+
+nav > div {
+    overflow: visible !important;
+}
+
+.logo-container {
+    overflow: visible !important;
+}
