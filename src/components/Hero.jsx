@@ -1,6 +1,9 @@
 import gourmetBg from '../assets/images/gourmet-kitchen.webp'
+import {useState} from "react";
 
 function Hero() {
+    const [imageLoaded, setImageLoaded] = useState(false)
+
     return (
         <section
             className="hero-background pt-20"
@@ -8,6 +11,10 @@ function Hero() {
                 '--bg-image': `url(${gourmetBg})`,
             }}
         >
+            {!imageLoaded && (
+                <div className="absolute inset-0 bg-gray-800 animate-pulse z-0"></div>
+            )}
+
             <style>{`
                 .hero-background::before {
                     background-image: var(--bg-image);
@@ -27,6 +34,14 @@ function Hero() {
                     </h2>
                 </div>
             </div>
+
+            {/* Imagen oculta solo para detectar cuando carga */}
+            <img
+                src={`${gourmetBg}`}
+                alt=""
+                style={{ display: 'none' }}
+                onLoad={() => setImageLoaded(true)}
+            />
         </section>
     )
 }
