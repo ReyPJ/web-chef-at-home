@@ -1,7 +1,19 @@
+import gourmetBg from '../assets/images/gourmet-kitchen.webp'
+
 function Hero() {
     return (
-        <section className="hero-background pt-20">
-            <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/60 to-black/75 z-10"></div>
+        <section
+            className="hero-background pt-20"
+            style={{
+                '--bg-image': `url(${gourmetBg})`,
+            }}
+        >
+            <style>{`
+                .hero-background::before {
+                    background-image: var(--bg-image);
+                }
+            `}</style>
+
             <div className="relative z-20 flex items-center justify-center h-full">
                 <div className="text-center text-white max-w-3xl px-6">
                     <h2 className="uppercase font-playfair text-base md:text-xl tracking-[0.15em] font-light mb-2">

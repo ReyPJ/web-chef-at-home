@@ -16,7 +16,6 @@
 /*hero css*/
 
 .hero-background {
-    background-image: url('src/assets/images/gourmet-kitchen.webp');
     background-size: cover;
     /*background-repeat: no-repeat;*/
     height: 50vh;
@@ -29,7 +28,6 @@
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('src/assets/images/gourmet-kitchen.webp');
     background-size: cover;
     background-position: center;
     filter: brightness(0.6) saturate(1.2) contrast(1.15);
