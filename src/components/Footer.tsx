@@ -1,3 +1,5 @@
+// @ts-ignore
+import logo from "../assets/images/chetatlogo.png"
 function Footer() {
     return (
         <footer className="relative bg-black pt-16 pb-8 px-4">
@@ -17,7 +19,7 @@ function Footer() {
             <div className="max-w-6xl mx-auto text-center mb-8">
                 <div className="flex flex-col items-center gap-4">
                     <img
-                        src="/src/assets/images/chetatlogo.png"
+                        src={`${logo}`}
                         alt="Chef At Home"
                         className="w-32 h-32 md:w-24 md:h-24 object-contain opacity-90"
                         loading="lazy"
