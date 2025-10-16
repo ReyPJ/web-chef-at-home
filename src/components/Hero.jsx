@@ -1,19 +1,6 @@
-import gourmetBg from '../assets/images/gourmet-kitchen.webp'
-
 function Hero() {
     return (
-        <section
-            className="hero-background pt-20"
-            style={{
-                '--bg-image': `url(${gourmetBg})`,
-            }}
-        >
-            <style>{`
-                .hero-background::before {
-                    background-image: var(--bg-image);
-                }
-            `}</style>
-
+        <section className="hero-background pt-20">
             <div className="relative z-20 flex items-center justify-center h-full">
                 <div className="text-center text-white max-w-3xl px-6">
                     <h2 className="uppercase font-playfair text-base md:text-xl tracking-[0.15em] font-light mb-2">

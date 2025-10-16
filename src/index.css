@@ -17,50 +17,45 @@
 
 .content-background {
     position: relative;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .content-background::before {
+    content: '';
+    position: absolute; /* Cambiado a fixed para que no se repinte */
+    inset: 0;
+    background-image: url('/src/assets/images/background.webp');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    inset: 0;
-    z-index: 0;
     filter: brightness(0.3) saturate(1.5) contrast(1.15);
+    z-index: 0;
+    pointer-events: none; /* Importante para performance */
 }
 
 .content-background > * {
     position: relative;
     z-index: 2;
 }
-
 /*hero css*/
 
 .hero-background {
+    background-image: url('/src/assets/images/gourmet-kitchen.webp');
     background-size: cover;
-    /*background-repeat: no-repeat;*/
     height: 50vh;
     width: 100vw;
     background-position: center;
     position: relative;
-    content-visibility: auto;
 }
 
 .hero-background::before {
     content: '';
     position: absolute;
     inset: 0;
+    background-image: url('/src/assets/images/gourmet-kitchen.webp');
     background-size: cover;
     background-position: center;
     filter: brightness(0.6) saturate(1.2) contrast(1.15);
     z-index: 1;
+    pointer-events: none;
 }
 
 .hero-background > * {
