@@ -5,7 +5,7 @@ function RestaurantTabs({activeRestaurant, onRestaurantChange}) {
     const currentRestaurant = restaurantes.find(r => r.id === activeRestaurant);
 
     return (
-        <section className="bg-transparent pb-10 pt-0 px-6">
+        <section className="bg-transparent pb-10 pt-0 px-6" id="restaurantes" >
             <div className="max-w-6xl mx-auto">
 
                 {/* TABS CON LOGOS */}

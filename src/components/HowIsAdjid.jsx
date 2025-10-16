@@ -14,7 +14,7 @@ function WhoIsAdjid() {
 
                     {/* Texto */}
                     <div className="flex flex-col gap-6">
-                        <h2 className="text-gold font-playball text-4xl">
+                        <h2 className="text-gold font-playball text-center text-4xl">
                             ¿Quién es Adjid Vargas?
                         </h2>
 

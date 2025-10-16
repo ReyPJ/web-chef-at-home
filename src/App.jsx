@@ -4,6 +4,8 @@ import Hero from "./components/Hero.jsx"
 import Navbar from "./components/navbar.jsx";
 import WhoIsAdjid from "./components/HowIsAdjid.jsx";
 import RestaurantTabs from "./components/RestaurantTabs.jsx";
+import ComingSoonApp from "./components/ComingSoonApp.jsx";
+import Footer from "./components/Footer.jsx";
 
 const RestaurantMenu = lazy(() => import("./components/RestaurantMenu.jsx"));
 
@@ -15,6 +17,7 @@ function App() {
             <Navbar />
             <Hero />
             <div className="content-background z-10">
+                <ComingSoonApp />
                 <WhoIsAdjid />
                 <RestaurantTabs
                     activeRestaurant={activeRestaurant}
@@ -28,6 +31,7 @@ function App() {
                     <RestaurantMenu activeRestaurant={activeRestaurant} />
                 </Suspense>
             </div>
+            <Footer />
         </div>
     )
 }

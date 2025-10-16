@@ -15,7 +15,7 @@ function Navbar() {
                 {/* Links de navegación a la derecha */}
                 <div className="flex items-center gap-6 ml-auto text-white">
                     <a
-                        href="#inicio"
+                        href="/index.html"
                         className="font-playfair text-xs uppercase tracking-widest hover:text-gold transition-colors"
                     >
                         Inicio
