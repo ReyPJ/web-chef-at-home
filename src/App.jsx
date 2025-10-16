@@ -1,10 +1,11 @@
 import './App.css'
-import { useState } from "react";
+import { useState, lazy, Suspense } from "react";
 import Hero from "./components/Hero.jsx"
 import Navbar from "./components/navbar.jsx";
 import WhoIsAdjid from "./components/HowIsAdjid.jsx";
 import RestaurantTabs from "./components/RestaurantTabs.jsx";
-import RestaurantMenu from "./components/RestaurantMenu.jsx";
+
+const RestaurantMenu = lazy(() => import("./components/RestaurantMenu.jsx"));
 
 function App() {
     const [activeRestaurant, setActiveRestaurant] = useState('asador-dona-tina');
@@ -19,9 +20,13 @@ function App() {
                     activeRestaurant={activeRestaurant}
                     onRestaurantChange={setActiveRestaurant}
                 />
-                <RestaurantMenu
-                    activeRestaurant={activeRestaurant}
-                />
+                <Suspense fallback={
+                    <div className="min-h-screen flex items-center justify-center">
+                        <div className="text-gold font-playball text-4xl">Cargando...</div>
+                    </div>
+                }>
+                    <RestaurantMenu activeRestaurant={activeRestaurant} />
+                </Suspense>
             </div>
         </div>
     )

@@ -60,7 +60,7 @@ function RestaurantMenu({ activeRestaurant }) {
                                     rel="noopener noreferrer"
                                     className="transition-transform hover:scale-110"
                                 >
-                                    <img src="/logos/uber-eats-logo.png" alt="Uber Eats" className="h-10" />
+                                    <img src="/logos/uber-eats-logo.webp" alt="Uber Eats" className="h-10" />
                                 </a>
                             )}
                             {currentRestaurant.deliveryLinks.rappi !== "#" && (
@@ -70,7 +70,7 @@ function RestaurantMenu({ activeRestaurant }) {
                                     rel="noopener noreferrer"
                                     className="transition-transform hover:scale-110"
                                 >
-                                    <img src="/logos/rappi-logo.png" alt="Rappi" className="h-10" />
+                                    <img src="/logos/rappi-logo.webp" alt="Rappi" className="h-10" />
                                 </a>
                             )}
                         </div>
