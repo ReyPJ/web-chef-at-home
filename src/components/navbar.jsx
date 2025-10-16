@@ -1,7 +1,7 @@
 import chefLogo from "../assets/images/chetatlogo.png"
 function Navbar() {
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 border-y border-gold mt-6">
+        <nav className="absolute top-0 left-0 right-0 z-50 border-y border-gold mt-6">
             <div className="relative flex items-center justify-between px-4 py-2 max-w-7xl mx-auto">
                 {/* Logo a la izquierda - sobresale del navbar */}
                 <div className="logo-container absolute left-4 -top-10 z-20">

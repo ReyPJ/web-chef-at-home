@@ -13,6 +13,34 @@
     }
 }
 
+/*APP CSS*/
+
+.content-background {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.content-background::before {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    inset: 0;
+    z-index: 0;
+    filter: brightness(0.3) saturate(1.5) contrast(1.15);
+}
+
+.content-background > * {
+    position: relative;
+    z-index: 2;
+}
+
 /*hero css*/
 
 .hero-background {
@@ -52,4 +80,52 @@ nav > div {
 
 .logo-container {
     overflow: visible !important;
+}
+
+/*Who Is Css*/
+
+.chef-image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.chef-image-container img {
+    display: block;
+    width: 100%;
+}
+
+.chef-image-container::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 120px;
+    height: 4px;
+    background-color: #FFC600;
+}
+
+.chef-image-container::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 120px;
+    height: 4px;
+    background-color: #FFC600;
+}
+
+/*Divider Css*/
+
+.divider-line {
+    height: 2px;
+    background: linear-gradient(90deg,
+    transparent 0%,
+    #FFC600 15%,
+    #FFC600 35%,
+    rgba(255, 198, 0, 0.7) 50%,
+    rgba(255, 198, 0, 0.4) 70%,
+    transparent 100%);
+    margin: 3rem 0;
+    position: relative;
+    z-index: 20;
+    filter: drop-shadow(0 0 4px rgba(255, 198, 0, 0.2));
 }
