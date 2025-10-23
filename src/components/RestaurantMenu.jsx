@@ -36,10 +36,10 @@ function RestaurantMenu({ activeRestaurant }) {
         return activeItems.slice(start, start + itemsPerSlide);
     };
 
-    const times = [
-        {key: "morning", time: "8 AM a 1 PM"},
-        {key: "evening", time: "1 PM a 10 PM"},
-    ]
+    // const times = [
+    //     {key: "morning", time: "8 AM a 1 PM"},
+    //     {key: "evening", time: "1 PM a 10 PM"},
+    // ]
 
 
     return (
