@@ -2,24 +2,23 @@ import chefPhoto from "../assets/images/chefFotoProvisional.webp"
 
 function WhoIsAdjid() {
     return (
-        <section className="text-white px-6 md:px-10 pt-16 md:pt-20 pb-10 bg-transparent">
-            <div className="max-w-6xl mx-auto">
-                <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <section className="text-white px-10 pt-20 pb-10 bg-transparent">
+            <div className="max-w-4xl mx-auto">
+                <div className="grid md:grid-cols-2 gap-8 items-center">
                     <div className="chef-image-container">
                         <img
                             src={`${chefPhoto}`}
                             alt="Foto del chef Adjid Vargas con su firma"
-                            className="w-full h-auto"
                         />
                     </div>
 
                     {/* Texto */}
                     <div className="flex flex-col gap-6">
-                        <h2 className="text-gold font-playball text-center text-3xl md:text-4xl lg:text-5xl">
+                        <h2 className="text-gold font-playball text-center text-4xl">
                             ¿Quién es Adjid Vargas?
                         </h2>
 
-                        <p className="font-lora text-sm md:text-base lg:text-lg text-justify leading-relaxed">
+                        <p className="font-lora text-base text-justify leading-relaxed">
                             Habiendo cursado estudios como Lic. en Gastronomía en la
                             Cd de México (Cosuga), y cursando un diplomado de alta
                             dirección hotelera (Gestion de tourisme et de l'hôtellerie)
@@ -29,10 +28,7 @@ function WhoIsAdjid() {
                             Federation (ACF), Miami, Fl (2010), y sommelier por la
                             Universidad Iberoamericana, Santa Fe, México, 2013-2014.
                         </p>
-                        <a 
-                            href="#adjid" 
-                            className="text-white border-2 w-fit py-2 px-4 border-gold font-playball text-base md:text-lg hover:bg-gold hover:text-black transition-all duration-300 cursor-pointer"
-                        >
+                        <a className="text-white border-2 w-fit py-1 px-2 border-gold font-playball text-base">
                             Conoce a Adjid
                         </a>
                     </div>

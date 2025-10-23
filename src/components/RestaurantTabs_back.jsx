@@ -9,7 +9,7 @@ function RestaurantTabs({activeRestaurant, onRestaurantChange}) {
             <div className="max-w-6xl mx-auto">
 
                 {/* TABS CON LOGOS */}
-                <div className="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12 mb-10 md:mb-12">
+                <div className="flex justify-center gap-8 mb-12">
                     {restaurantes.map(restaurant => (
                         <button
                             key={restaurant.id}
@@ -23,7 +23,7 @@ function RestaurantTabs({activeRestaurant, onRestaurantChange}) {
                             <img
                                 src={`/logos/${restaurant.id}.webp`}
                                 alt={restaurant.name}
-                                className="h-20 md:h-24 lg:h-28 object-contain"
+                                className="h-24 object-contain"
                             />
                         </button>
                     ))}
@@ -31,10 +31,10 @@ function RestaurantTabs({activeRestaurant, onRestaurantChange}) {
 
                 {/* QUOTE DEL CHEF */}
                 <div className="text-center">
-                    <p className="text-white font-semibold font-lora italic text-base md:text-lg lg:text-xl text-center max-w-3xl leading-relaxed mx-auto mb-6 px-4">
+                    <p className="text-white font-semibold font-lora italic text-lg text-center max-w-3xl leading-relaxed mx-auto mb-6">
                         "{currentRestaurant.description}"
                     </p>
-                    <p className="text-white font-semibold font-playball text-xl md:text-2xl lg:text-3xl">
+                    <p className="text-white font-semibold font-playball text-2xl">
                         Chef Adjid Velasco
                     </p>
                 </div>

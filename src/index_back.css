@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Playball&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playball&display=swap");
 @import 'tailwindcss';
 
 @theme {
-    --font-playfair: 'Playfair Display', serif;
+    --font-lora: 'Playfair Display', serif;
     --font-playball: 'Playball', cursive;
-    --font-lora: 'Lora', serif;
     --color-gold: #FFC600;
 }
 
@@ -23,7 +21,7 @@
 
 .content-background::before {
     content: '';
-    position: absolute;
+    position: absolute; /* Cambiado a fixed para que no se repinte */
     inset: 0;
     background-image: url('/src/assets/images/background.webp');
     background-size: cover;
@@ -31,14 +29,13 @@
     background-attachment: fixed;
     filter: brightness(0.3) saturate(1.5) contrast(1.15);
     z-index: 0;
-    pointer-events: none;
+    pointer-events: none; /* Importante para performance */
 }
 
 .content-background > * {
     position: relative;
     z-index: 2;
 }
-
 /*hero css*/
 
 .hero-background {
@@ -48,19 +45,6 @@
     width: 100vw;
     background-position: center;
     position: relative;
-}
-
-/* Mejora para desktop */
-@media (min-width: 768px) {
-    .hero-background {
-        height: 60vh;
-    }
-}
-
-@media (min-width: 1024px) {
-    .hero-background {
-        height: 70vh;
-    }
 }
 
 .hero-background::before {
@@ -83,7 +67,7 @@
 /* Navbar CSS */
 nav {
     overflow: visible !important;
-    margin-top: 2rem;
+    margin-top: 2rem; /* Separación del top */
 }
 
 nav > div {
@@ -111,7 +95,7 @@ nav > div {
     content: '';
     position: absolute;
     left: 0;
-    width: 80px;
+    width: 120px;
     height: 4px;
     background-color: #FFC600;
 }
@@ -120,17 +104,9 @@ nav > div {
     content: '';
     position: absolute;
     right: 0;
-    width: 80px;
+    width: 120px;
     height: 4px;
     background-color: #FFC600;
-}
-
-/* Desktop: líneas más largas */
-@media (min-width: 768px) {
-    .chef-image-container::before,
-    .chef-image-container::after {
-        width: 120px;
-    }
 }
 
 /*Divider Css*/
@@ -149,36 +125,10 @@ nav > div {
     z-index: 20;
     filter: drop-shadow(0 0 4px rgba(255, 198, 0, 0.2));
 }
-
-@media (min-width: 768px) {
-    .divider-line {
-        margin: 4rem 0;
-    }
-}
-
 .scrollbar-hide::-webkit-scrollbar {
     display: none;
 }
-
 .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
-}
-
-/* Mejoras generales para desktop */
-@media (min-width: 1024px) {
-    /* Transiciones más suaves en desktop */
-    * {
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    /* Mejor spacing en desktop */
-    section {
-        scroll-margin-top: 100px;
-    }
-}
-
-/* Smooth scroll para toda la página */
-html {
-    scroll-behavior: smooth;
 }

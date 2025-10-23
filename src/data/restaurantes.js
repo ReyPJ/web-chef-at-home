@@ -108,22 +108,22 @@ export const restaurantes = [
                 {
                     name: 'Concha rellena',
                     description: 'Nata montada, hojuelas de almendra horneadas, amaranto y frutos rojos',
-                    price: 0
+                    price: 140
                 },
                 {
                     name: 'Pan Francés tres leches',
                     description: 'Pan brioche caramelizado, leche condensada, frutos rojos y crema batida',
-                    price: 0
+                    price: 140
                 },
                 {
                     name: 'Pan Francés en syrup de frutos rojos',
                     description: 'Pan brioche caramelizado, reducción de vino tinto con azúcar mascabado, frutos rojos y crema montada',
-                    price: 0
+                    price: 140
                 },
                 {
                     name: 'Tiramisú de Requesón',
                     description: 'Requesón, queso mascarpone, cocoa, palanqueta de pepita tostada',
-                    price: 0
+                    price: 150
                 },
             ],
             'Especialidades': [
@@ -160,17 +160,17 @@ export const restaurantes = [
                 {
                     name: 'Filete de res (250 gr) en salsa Morita',
                     description: 'Black Angus premium al Josper, puré de papa rústico, gratinado con queso de oveja de rancho, salsa Morita hecha en casa',
-                    price: 0
+                    price: 415
                 },
                 {
                     name: 'Filete de res (250 gr) con Escamoles (50 gr)',
                     description: 'Black Angus premium al Josper, con salsa de tuétano, coronado con escamoles salteados al epazote, sobre puré de papa rústico',
-                    price: 0
+                    price: 645
                 },
                 {
                     name: 'Albóndigas al chipotle',
                     description: 'Carne molida Angus hecha en casa, salsa cremosa de chipotle, gratinadas con queso de oveja',
-                    price: 0
+                    price: 210
                 },
                 {
                     name: 'Manchamanteles Doña Tina',
@@ -225,15 +225,106 @@ export const restaurantes = [
         id: 'hamburger-place',
         name: 'Hamburger Place',
         tagLine: 'Smash Burgers Calidad Gourmet',
-        description: 'La hamburguesa perfecta existe. Carne de la mas alta calidad, técnica impecable y la firma inconfundible del Chef Ejecutivo Adjid Vargas.',
+        description: 'Nuestras Smashed Burguers están hechas con carne de primera calidad CAB\n(Certified Angus Beef), marinada en casa, con pan Brioche hecho en casa, queso\nde oveja de rancho y con Tocineta ahumada, completamos esta filosofía con platillos hechos desde cero, utilizando ingredientes frescos, locales y sin ultra procesados',
         menu: {
-            'Hamburguesas': [
-                {name: 'Hamburguesa 1', description: 'Descripción de la Hamburguesa 1', price: 200},
-                {name: 'Hamburguesa 2', description: 'Descripción de la Hamburguesa 2', price: 250},
+            'Smash Burgers': [
+                {
+                    name: 'Clásica',
+                    description: 'Pan Brioche hecho en casa, Carne molida CAB\n(Certified Angus Beef), queso de oveja de rancho,\ncebolla, lechuga, jitomate bola, papas a la francesa,\ny aderezo de la casa con pepinillos, toque de\nTabasco y Mayo',
+                    price: 185
+                },
+                {
+                    name: 'Con Pancetta Ahumada',
+                    description: 'Pan Brioche hecho en casa, Carne molida CAB\n(Certified Angus Beef), queso de oveja de rancho,\ncebolla, lechuga, jitomate bola, papas a la francesa,\nTOCINETA AHUMADA AL GRILL, y aderezo de la\ncasa con pepinillos, toque de Tabasco y Mayo',
+                    price: 195
+                },
+                {
+                    name: 'Hawaiana',
+                    description: 'Pan Brioche hecho en casa, Carne molida CAB\n(Certified Angus Beef), queso de oveja de rancho,\ncebolla, lechuga, jitomate bola, papas a la francesa,\nEBANADA DE PIÑA Y JAMÓN DE YORK AL GRILL,\ny aderezo de la casa con pepinillos, toque de\nTabasco y Mayo',
+                    price: 195
+                },
+                {
+                    name: 'Smashed BBQ',
+                    description: 'Pan Brioche hecho en casa, Carne molida CAB\n(Certified Angus Beef), queso de oveja de rancho,\ncebolla, lechuga, jitomate bola, papas a la francesa,\ntocineta ahumada, CEBOLLA CARAMELIZADA Y\nSALSA BBQ hecha en casa, aderezo de la casa\ncon pepinillos, toque de Tabasco y Mayo',
+                    price: 195
+                },
+                {
+                    name: 'Vegetariana Gourmet',
+                    description: 'Pan Brioche hecho en casa, PORTOBELLO\nLACQUEADO CON SOYA Y BALSÁMICO, QUESO\nAZUL, cebolla, lechuga, jitomate bola, papas a la\nfrancesa y aderezo de la casa con pepinillos, toque\nde Tabasco y Mayo',
+                    price: 195
+                },
             ],
-            "Side": [
-                {name: 'Papas a la francesa', description: 'Descripción del side 1', price: 100},
-            ]
+            "Ensaladas": [
+                {
+                    name: 'Ensalada Verde',
+                    description: 'Hojas de lechuga, arúgula, finas lajas de queso\nparmesano, aguacate tatemado, vinagreta de limón\nEureka',
+                    price: 175
+                },
+                {
+                    name: 'Ensalada Cítrica "Smash',
+                    description: 'Hojas de lechuga, arúgula, queso de cabra, nuez,\nsuprema de cítricos, aceite de oliva, aderezo de mie\ny mostaza',
+                    price: 195
+                },
+            ],
+            "Aves y Carnes": [
+                {
+                    name: "Pechuga de Pollo Empanizada",
+                    description: "Con Pasta Fetuccine hecha en casa en salsa\ncremosa de chipotle, aguacate, papas a la francesa\ny aderezo de la casa",
+                    price: 320
+                },
+                {
+                    name: "Filete de Res (250 gr) en salsa de tuétano",
+                    description: "Black Angus premium al Josper, puré de papa\nrústico, espárragos al grill gratinado con queso de\noveja de rancho, salsa de tuétano en casa",
+                    price: 415
+                },
+                {
+                    name: "Filete de Res (250 gr) con Escamoles (50 gr)",
+                    description: "Black Angus premium al Josper, con salsa de\ntuétano, coronado con escamoles salteados al\nepazote, sobre puré de papa rústico",
+                    price: 645
+                },
+                {
+                    name: "Albóndigas al chipotle gratinadas",
+                    description: "Carne molida Angus hecha en casa, salsa cremosa\nde chipotle, gratinadas con queso de oveja",
+                    price: 210
+                },
+            ],
+            "Lo Dulce": [
+                {
+                    name: "Pan Francés tres leches",
+                    description: "Pan brioche caramelizado, leche condensada,\nfrutos rojos y crema batida",
+                    price: 140
+                },
+                {
+                    name: "Pan Francés en syrup de frutos rojos",
+                    description: "Pan brioche caramelizado, reducción de vino tinto\ncon azúcar mascabado, frutos rojos y crema\nmontada",
+                    price: 140
+                },
+                {
+                    name: "Tiramisú",
+                    description: "Crema de queso mascarpone, cocoa, soletas con\nlicor de café, cocoa y palanqueta de pepita tostada",
+                    price: 150
+                },
+            ],
+            "Refrescos": [
+                {name: 'Coca-Cola', description: '', price: 60},
+                {name: 'Coca-Cola Cero', description: '', price: 60},
+                {name: 'Coca-Cola Light', description: '', price: 60},
+                {name: 'Agua Mineral', description: '', price: 60},
+                {name: 'Mundet', description: '', price: 60},
+                {name: 'Sprite', description: '', price: 60},
+            ],
+            "Jugos Cold Press": [
+                {name: 'Naranja', description: '', price: 55},
+                {name: 'Toronja', description: '', price: 55},
+                {name: 'Guayaba con Naranja', description: '', price: 65},
+                {name: 'Verde', description: 'Pepino, jengibre, nopal, espinaca, piña y apio', price: 65},
+                {name: 'Energizante', description: 'Naranja, mango, jengibre y piña', price: 65},
+            ],
+            "Shakes": [
+                {name: 'Vainilla', description: '', price: 85},
+                {name: 'Fresa', description: '', price: 85},
+                {name: 'Chocolate', description: '', price: 85},
+            ],
         },
         deliveryLinks: {
             uberEats: "#",

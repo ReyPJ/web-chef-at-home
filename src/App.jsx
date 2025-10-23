@@ -6,6 +6,7 @@ import WhoIsAdjid from "./components/HowIsAdjid.jsx";
 import RestaurantTabs from "./components/RestaurantTabs.jsx";
 import ComingSoonApp from "./components/ComingSoonApp.jsx";
 import Footer from "./components/Footer.jsx";
+import WhatsAppButton from "./components/WhatsAppButton.jsx";
 
 const RestaurantMenu = lazy(() => import("./components/RestaurantMenu.jsx"));
 
@@ -32,6 +33,8 @@ function App() {
                 </Suspense>
             </div>
             <Footer />
+
+            <WhatsAppButton />
         </div>
     )
 }

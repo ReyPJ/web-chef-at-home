@@ -28,7 +28,7 @@ function Footer() {
                         <h3 className="font-playball text-2xl md:text-3xl text-gold italic mb-1">
                             Chef At Home
                         </h3>
-                        <p className="font-playfair text-white/60 text-xs uppercase tracking-[0.3em]">
+                        <p className="font-lora text-white/60 text-xs uppercase tracking-[0.3em]">
                             Zona Esmeralda
                         </p>
                     </div>
@@ -37,7 +37,7 @@ function Footer() {
 
             {/* Copyright */}
             <div className="max-w-6xl mx-auto text-center pt-6 border-t border-gold/20">
-                <p className="font-playfair text-white/40 text-xs uppercase tracking-widest">
+                <p className="font-lora text-white/40 text-xs uppercase tracking-widest">
                     Chef At Home © 2025
                 </p>
             </div>
