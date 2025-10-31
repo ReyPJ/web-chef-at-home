@@ -51,8 +51,8 @@ function RestaurantMenu({ activeRestaurant }) {
 
         {/* HEADER MENÚ */}
         <div className="flex flex-col md:flex-row items-center justify-between mb-8 md:mb-12 pb-6 md:pb-8 border-b border-gold/30">
-          <h2 className="text-gold font-playball text-4xl md:text-6xl lg:text-7xl italic mb-6 md:mb-0 drop-shadow-lg">
-            MENU
+          <h2 className="text-gold font-lora text-4xl md:text-6xl lg:text-7xl italic mb-6 md:mb-0 drop-shadow-lg">
+            Menu - {currentRestaurant.name}
           </h2>
 
           <div className="flex flex-col items-center gap-3">
