@@ -62,7 +62,8 @@ function RestaurantMenu({ activeRestaurant }) {
             <div className="flex justify-center gap-4">
               {currentRestaurant.deliveryLinks.uberEats !== "#" && (
                 <a
-                  href={currentRestaurant.deliveryLinks.uberEats}
+                  // href={currentRestaurant.deliveryLinks.uberEats}
+                  href='#'
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-transform hover:scale-110"
