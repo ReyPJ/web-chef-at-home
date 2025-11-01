@@ -3,18 +3,22 @@ function ComingSoonApp() {
     <section className="relative py-12 md:py-16 px-4 bg-black border-y border-gold/30">
       <div className="max-w-4xl mx-auto text-center">
         {/* Título principal */}
-        <div className="flex items-center my-8 gap-8">
+        <div className="flex flex-col items-center my-8 gap-8">
           <h2 className="font-playball text-4xl md:text-5xl lg:text-6xl text-gold mb-2 italic">
             Chef At Home App
           </h2>
-          <h2 className="font-lora text-xl text-gold mb-2 italic">
+          <h2 className="font-lora text-5xl text-gold mb-2 italic">
             ¡GRAN INAUGURACIÓN 12 NOVIEMBRE!
           </h2>
         </div>
 
+        <p className="font-lora text-white text-base uppercase tracking-[0.25em] mb-8">
+          SERVICIO A DOMICILIO DE MIÉRCOLES A DOMINGO DE 8 AM a 9:45 PM
+        </p>
+
         {/* Subtítulo */}
         <p className="font-lora text-white/80 text-xs md:text-sm lg:text-base uppercase tracking-[0.25em] mb-8">
-          Próximamente
+          Próximamente en Playstore y AppStore
         </p>
 
         {/* Logos de las tiendas */}

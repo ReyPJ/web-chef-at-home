@@ -9,7 +9,7 @@ export const restaurantes = [
         {
           name: 'Huevos Fritos',
           description: 'Tiernos, Bien cocidos, Volteados / con frijoles de la olla y arroz blanco',
-          price: 180
+          price: 175
         },
         {
           name: 'Huevos Divorciados',
@@ -44,7 +44,7 @@ export const restaurantes = [
         {
           name: 'Plato de fruta de temporada',
           description: 'Rebanadas de fruta de temporada, con o sin yogurt griego, granola y miel',
-          price: 180
+          price: 175
         },
         {
           name: 'Bowl de frutos rojos',
@@ -54,61 +54,93 @@ export const restaurantes = [
         {
           name: 'Bagel Salmón',
           description: 'Salmón ahumado, queso doble crema, cebolla morada, aceitunas negras, alcaparras, limón',
-          price: 65
+          price: 220
         },
         {
           name: 'Avocado Toast',
           description: 'Hogaza de masa madre hecha en casa, mezcla de hojas, jitomate Cherry, pepita verde, aguacate en láminas, limón Eureka',
-          price: 65
+          price: 185
         },
       ],
-      // 'Sugerencias': [
-      //   {
-      //     name: 'Chilaquiles Verdes o rojos',
-      //     description: 'Crema ácida, queso fresco y aguacate / con frijoles de la olla',
-      //     price: 0
-      //   },
-      //   {
-      //     name: 'Chilaquiles Doña Tina',
-      //     description: 'Mole negro Oaxaqueño, crema, queso fresco y chip de plátano macho / con frijoles de la olla',
-      //     price: 0
-      //   },
-      //   {
-      //     name: 'Chilaquiles Suizos con Asado de tira',
-      //     description: 'Crema ácida, queso fresco y aguacate / con frijoles de la olla',
-      //     price: 0
-      //   },
-      //   {
-      //     name: 'Chilaquiles de Morita con Asado de tira',
-      //     description: 'Crema ácida, queso fresco y aguacate / con frijoles de la olla',
-      //     price: 0
-      //   },
-      //   {
-      //     name: 'Enchiladas gratinadas',
-      //     description: 'Pollo Orgánico, crema ácida, queso de oveja / con frijoles de la olla',
-      //     price: 0
-      //   },
-      //   {
-      //     name: 'Enfrijoladas',
-      //     description: 'Pollo orgánico, crema ácida, queso fresco, chorizo y pico de gallo',
-      //     price: 0
-      //   },
-      //   {
-      //     name: 'Enmoladas',
-      //     description: 'Pollo orgánico, mole negro artesanal, crema ácida, queso fresco y chip de plátano macho',
-      //     price: 0
-      //   },
-      //   {
-      //     name: 'Molletes',
-      //     description: 'Pan horneado de costra, frijoles refritos, queso de oveja de rancho, pico de gallo, aguacate',
-      //     price: 0
-      //   },
-      // ],
+      "Adicionales": [
+        {
+          name: 'Extra cottage (60gr)',
+          description: '',
+          price: 50
+        },
+        {
+          name: 'Pechuga pollo orgánico (100 gr)',
+          description: '',
+          price: 65
+        },
+        {
+          name: 'Salmón ahumado (90 gr)',
+          description: '',
+          price: 65
+        },
+        {
+          name: 'Chorizo (100 gr)',
+          description: '',
+          price: 50
+        },
+        {
+          name: 'Chicharrón prensado (110 gr)',
+          description: '',
+          price: 50
+        },
+        {
+          name: 'Huevo orgánico (2 pza)',
+          description: '',
+          price: 40
+        },
+      ],
+      'Sugerencias': [
+        {
+          name: 'Chilaquiles Verdes o rojos',
+          description: 'Crema ácida, queso fresco y aguacate / con frijoles de la olla',
+          price: 180
+        },
+        {
+          name: 'Chilaquiles Doña Tina',
+          description: 'Mole negro Oaxaqueño, crema, queso fresco y chip de plátano macho / con frijoles de la olla',
+          price: 180
+        },
+        {
+          name: 'Chilaquiles Suizos con Asado de tira',
+          description: 'Crema ácida, queso fresco y aguacate / con frijoles de la olla',
+          price: 185
+        },
+        {
+          name: 'Chilaquiles de Morita con Asado de tira',
+          description: 'Crema ácida, queso fresco y aguacate / con frijoles de la olla',
+          price: 185
+        },
+        {
+          name: 'Enchiladas gratinadas',
+          description: 'Pollo Orgánico, crema ácida, queso de oveja / con frijoles de la olla',
+          price: 190
+        },
+        {
+          name: 'Enfrijoladas',
+          description: 'Pollo orgánico, crema ácida, queso fresco, chorizo y pico de gallo',
+          price: 185
+        },
+        {
+          name: 'Enmoladas',
+          description: 'Pollo orgánico, mole negro artesanal, crema ácida, queso fresco y chip de plátano macho',
+          price: 185
+        },
+        {
+          name: 'Molletes',
+          description: 'Pan horneado de costra, frijoles refritos, queso de oveja de rancho, pico de gallo, aguacate',
+          price: 185
+        },
+      ],
       'Lo Dulce': [
         {
-          name: 'Concha rellena',
+          name: 'Concha rellena (80gr)',
           description: 'Nata montada, hojuelas de almendra horneadas, amaranto y frutos rojos',
-          price: 140
+          price: 125
         },
         {
           name: 'Pan Francés tres leches',
@@ -118,7 +150,7 @@ export const restaurantes = [
         {
           name: 'Pan Francés en syrup de frutos rojos',
           description: 'Pan brioche caramelizado, reducción de vino tinto con azúcar mascabado, frutos rojos y crema montada',
-          price: 140
+          price: 150
         },
         {
           name: 'Tiramisú de Requesón',
@@ -126,37 +158,37 @@ export const restaurantes = [
           price: 150
         },
       ],
-      'Especialidades': [
-        //   {
-        //     name: 'Ensalada Verde',
-        //     description: 'Hojas de lechuga, arúgula, finas lajas de queso parmesano, aguacate tatemado, vinagreta de limón Eureka',
-        //     price: 0
-        //   },
-        //   {
-        //     name: 'Ensalada cítrica De la abuela',
-        //     description: 'Hojas de lechuga, arúgula, queso de cabra, nuez, suprema de cítricos, aceite de oliva, aderezo de miel y mostaza',
-        //     price: 0
-        //   },
-        //   {
-        //     name: 'Quesadillas (2 pza)',
-        //     description: 'Lechuga en chiffonade, crema, queso fresco. Opciones: Chicharrón prensado, Queso, Flor de calabaza, Champiñones con setas al ajillo, Tinga de pollo, Tinga de res',
-        //     price: 0
-        //   },
-        //   {
-        //     name: 'Pescadillas de Sierra con salsa verde de habanero',
-        //     description: 'Pescado Sierra tatemado, cebolla morada, limón, cilantro, salsa verde de habanero, queso, lechuga y crema ácida',
-        //     price: 0
-        //   },
-        //   {
-        //     name: 'Pechuga de pollo empanizada',
-        //     description: 'Con Pasta Fetuccine hecha en casa en salsa cremosa de chipotle, aguacate y frijoles de la olla',
-        //     price: 0
-        //   },
-        //   {
-        //     name: 'Flautas ahogadas de tinga de res',
-        //     description: 'Tortillas hechas a mano, salsa roja tatemada, queso fresco, hojas de lechuga y crema',
-        //     price: 0
-        //   },
+      'Todo el día': [
+        {
+          name: 'Ensalada Verde',
+          description: 'Hojas de lechuga, arúgula, finas lajas de queso parmesano, aguacate tatemado, vinagreta de limón Eureka',
+          price: 175
+        },
+        {
+          name: 'Ensalada cítrica De la abuela',
+          description: 'Hojas de lechuga, arúgula, queso de cabra, nuez, suprema de cítricos, aceite de oliva, aderezo de miel y mostaza',
+          price: 195
+        },
+        {
+          name: 'Quesadillas (2 pza)',
+          description: 'Lechuga en chiffonade, crema, queso fresco. Opciones: Chicharrón prensado, Queso, Flor de calabaza, Champiñones con setas al ajillo, Tinga de pollo, Tinga de res',
+          price: 150
+        },
+        {
+          name: 'Pescadillas de Sierra con salsa verde de habanero (5 pzas)',
+          description: 'Pescado Sierra tatemado, cebolla morada, limón, cilantro, salsa verde de habanero, queso, lechuga y crema ácida',
+          price: 220
+        },
+        {
+          name: 'Pechuga de pollo empanizada',
+          description: 'Con Pasta Fetuccine hecha en casa en salsa cremosa de chipotle, aguacate y frijoles de la olla',
+          price: 320
+        },
+        {
+          name: 'Flautas ahogadas de tinga de res',
+          description: 'Tortillas hechas a mano, salsa roja tatemada, queso fresco, hojas de lechuga y crema',
+          price: 190
+        },
         {
           name: 'Filete de res (250 gr) en salsa Morita',
           description: 'Black Angus premium al Josper, puré de papa rústico, gratinado con queso de oveja de rancho, salsa Morita hecha en casa',
@@ -170,32 +202,41 @@ export const restaurantes = [
         {
           name: 'Albóndigas al chipotle',
           description: 'Carne molida Angus hecha en casa, salsa cremosa de chipotle, gratinadas con queso de oveja',
-          price: 210
+          price: 220
         },
-        // {
-        //   name: 'Manchamanteles Doña Tina',
-        //   description: 'Costilla y lomo de cerdo en guiso de chile guajillo y chile ancho, papa Idaho en cubos, cocido lentamente, servido con arroz blanco',
-        //   price: 0
-        // },
+        {
+          name: 'Manchamanteles "Doña Tina"',
+          description: 'Costilla y lomo de cerdo en guiso de chile guajillo y chile ancho, papa Idaho en cubos, cocido lentamente, servido con arroz blanco (Receta de la familia)',
+          price: 215
+        },
       ],
-      'Bebidas': [
+      'Refrescos': [
         { name: 'Coca Cola', description: 'Refresco', price: 45 },
         { name: 'Mineral', description: 'Agua mineral', price: 45 },
         { name: 'Coca Cero', description: 'Refresco sin azúcar', price: 45 },
         { name: 'Coca Light', description: 'Refresco light', price: 45 },
         { name: 'Mundet', description: 'Refresco', price: 45 },
         { name: 'Sprite', description: 'Refresco', price: 45 },
+      ],
+      'Jugos Cold Press': [
         { name: 'Cold Press Naranja', description: 'Jugo prensado en frío', price: 55 },
         { name: 'Cold Press Toronja', description: 'Jugo prensado en frío', price: 55 },
         { name: 'Cold Press Verde', description: 'Pepino, jengibre, nopal, espinaca, piña y apio', price: 65 },
         { name: 'Cold Press Energizante', description: 'Naranja, mango, jengibre y piña', price: 65 },
         { name: 'Cold Press Guayaba con Naranja', description: 'Jugo prensado en frío', price: 65 },
+      ],
+      'Café': [
         { name: 'Café de la olla', description: 'Café tradicional', price: 55 },
         { name: 'Americano', description: 'Café americano', price: 55 },
         { name: 'Latte', description: 'Café con leche', price: 55 },
         { name: 'Capuchino', description: 'Capuchino', price: 55 },
         { name: 'Capuchino con cajeta', description: 'Capuchino con cajeta dulce', price: 60 },
       ],
+      'Atoles (8 AM a 1 PM)': [
+        { name: 'Atole de Vainilla', description: '', price: 55 },
+        { name: 'Atole de Fresa', description: '', price: 55 },
+        { name: 'Atole de Coco', description: '', price: 55 },
+      ]
     },
     deliveryLinks: {
       uberEats: "//uber",
