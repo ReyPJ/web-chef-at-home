@@ -62,48 +62,48 @@ export const restaurantes = [
           price: 65
         },
       ],
-      'Sugerencias': [
-        {
-          name: 'Chilaquiles Verdes o rojos',
-          description: 'Crema ácida, queso fresco y aguacate / con frijoles de la olla',
-          price: 0
-        },
-        {
-          name: 'Chilaquiles Doña Tina',
-          description: 'Mole negro Oaxaqueño, crema, queso fresco y chip de plátano macho / con frijoles de la olla',
-          price: 0
-        },
-        {
-          name: 'Chilaquiles Suizos con Asado de tira',
-          description: 'Crema ácida, queso fresco y aguacate / con frijoles de la olla',
-          price: 0
-        },
-        {
-          name: 'Chilaquiles de Morita con Asado de tira',
-          description: 'Crema ácida, queso fresco y aguacate / con frijoles de la olla',
-          price: 0
-        },
-        {
-          name: 'Enchiladas gratinadas',
-          description: 'Pollo Orgánico, crema ácida, queso de oveja / con frijoles de la olla',
-          price: 0
-        },
-        {
-          name: 'Enfrijoladas',
-          description: 'Pollo orgánico, crema ácida, queso fresco, chorizo y pico de gallo',
-          price: 0
-        },
-        {
-          name: 'Enmoladas',
-          description: 'Pollo orgánico, mole negro artesanal, crema ácida, queso fresco y chip de plátano macho',
-          price: 0
-        },
-        {
-          name: 'Molletes',
-          description: 'Pan horneado de costra, frijoles refritos, queso de oveja de rancho, pico de gallo, aguacate',
-          price: 0
-        },
-      ],
+      // 'Sugerencias': [
+      //   {
+      //     name: 'Chilaquiles Verdes o rojos',
+      //     description: 'Crema ácida, queso fresco y aguacate / con frijoles de la olla',
+      //     price: 0
+      //   },
+      //   {
+      //     name: 'Chilaquiles Doña Tina',
+      //     description: 'Mole negro Oaxaqueño, crema, queso fresco y chip de plátano macho / con frijoles de la olla',
+      //     price: 0
+      //   },
+      //   {
+      //     name: 'Chilaquiles Suizos con Asado de tira',
+      //     description: 'Crema ácida, queso fresco y aguacate / con frijoles de la olla',
+      //     price: 0
+      //   },
+      //   {
+      //     name: 'Chilaquiles de Morita con Asado de tira',
+      //     description: 'Crema ácida, queso fresco y aguacate / con frijoles de la olla',
+      //     price: 0
+      //   },
+      //   {
+      //     name: 'Enchiladas gratinadas',
+      //     description: 'Pollo Orgánico, crema ácida, queso de oveja / con frijoles de la olla',
+      //     price: 0
+      //   },
+      //   {
+      //     name: 'Enfrijoladas',
+      //     description: 'Pollo orgánico, crema ácida, queso fresco, chorizo y pico de gallo',
+      //     price: 0
+      //   },
+      //   {
+      //     name: 'Enmoladas',
+      //     description: 'Pollo orgánico, mole negro artesanal, crema ácida, queso fresco y chip de plátano macho',
+      //     price: 0
+      //   },
+      //   {
+      //     name: 'Molletes',
+      //     description: 'Pan horneado de costra, frijoles refritos, queso de oveja de rancho, pico de gallo, aguacate',
+      //     price: 0
+      //   },
+      // ],
       'Lo Dulce': [
         {
           name: 'Concha rellena',
@@ -127,36 +127,36 @@ export const restaurantes = [
         },
       ],
       'Especialidades': [
-        {
-          name: 'Ensalada Verde',
-          description: 'Hojas de lechuga, arúgula, finas lajas de queso parmesano, aguacate tatemado, vinagreta de limón Eureka',
-          price: 0
-        },
-        {
-          name: 'Ensalada cítrica De la abuela',
-          description: 'Hojas de lechuga, arúgula, queso de cabra, nuez, suprema de cítricos, aceite de oliva, aderezo de miel y mostaza',
-          price: 0
-        },
-        {
-          name: 'Quesadillas (2 pza)',
-          description: 'Lechuga en chiffonade, crema, queso fresco. Opciones: Chicharrón prensado, Queso, Flor de calabaza, Champiñones con setas al ajillo, Tinga de pollo, Tinga de res',
-          price: 0
-        },
-        {
-          name: 'Pescadillas de Sierra con salsa verde de habanero',
-          description: 'Pescado Sierra tatemado, cebolla morada, limón, cilantro, salsa verde de habanero, queso, lechuga y crema ácida',
-          price: 0
-        },
-        {
-          name: 'Pechuga de pollo empanizada',
-          description: 'Con Pasta Fetuccine hecha en casa en salsa cremosa de chipotle, aguacate y frijoles de la olla',
-          price: 0
-        },
-        {
-          name: 'Flautas ahogadas de tinga de res',
-          description: 'Tortillas hechas a mano, salsa roja tatemada, queso fresco, hojas de lechuga y crema',
-          price: 0
-        },
+        //   {
+        //     name: 'Ensalada Verde',
+        //     description: 'Hojas de lechuga, arúgula, finas lajas de queso parmesano, aguacate tatemado, vinagreta de limón Eureka',
+        //     price: 0
+        //   },
+        //   {
+        //     name: 'Ensalada cítrica De la abuela',
+        //     description: 'Hojas de lechuga, arúgula, queso de cabra, nuez, suprema de cítricos, aceite de oliva, aderezo de miel y mostaza',
+        //     price: 0
+        //   },
+        //   {
+        //     name: 'Quesadillas (2 pza)',
+        //     description: 'Lechuga en chiffonade, crema, queso fresco. Opciones: Chicharrón prensado, Queso, Flor de calabaza, Champiñones con setas al ajillo, Tinga de pollo, Tinga de res',
+        //     price: 0
+        //   },
+        //   {
+        //     name: 'Pescadillas de Sierra con salsa verde de habanero',
+        //     description: 'Pescado Sierra tatemado, cebolla morada, limón, cilantro, salsa verde de habanero, queso, lechuga y crema ácida',
+        //     price: 0
+        //   },
+        //   {
+        //     name: 'Pechuga de pollo empanizada',
+        //     description: 'Con Pasta Fetuccine hecha en casa en salsa cremosa de chipotle, aguacate y frijoles de la olla',
+        //     price: 0
+        //   },
+        //   {
+        //     name: 'Flautas ahogadas de tinga de res',
+        //     description: 'Tortillas hechas a mano, salsa roja tatemada, queso fresco, hojas de lechuga y crema',
+        //     price: 0
+        //   },
         {
           name: 'Filete de res (250 gr) en salsa Morita',
           description: 'Black Angus premium al Josper, puré de papa rústico, gratinado con queso de oveja de rancho, salsa Morita hecha en casa',
@@ -172,11 +172,11 @@ export const restaurantes = [
           description: 'Carne molida Angus hecha en casa, salsa cremosa de chipotle, gratinadas con queso de oveja',
           price: 210
         },
-        {
-          name: 'Manchamanteles Doña Tina',
-          description: 'Costilla y lomo de cerdo en guiso de chile guajillo y chile ancho, papa Idaho en cubos, cocido lentamente, servido con arroz blanco',
-          price: 0
-        },
+        // {
+        //   name: 'Manchamanteles Doña Tina',
+        //   description: 'Costilla y lomo de cerdo en guiso de chile guajillo y chile ancho, papa Idaho en cubos, cocido lentamente, servido con arroz blanco',
+        //   price: 0
+        // },
       ],
       'Bebidas': [
         { name: 'Coca Cola', description: 'Refresco', price: 45 },
