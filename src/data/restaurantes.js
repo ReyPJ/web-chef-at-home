@@ -243,25 +243,165 @@ export const restaurantes = [
       rappi: "//rappi",
     },
   },
-  // {
-  //   id: 'scarpetta',
-  //   name: 'Scarpetta',
-  //   tagLine: 'Pasta Artesanal',
-  //   description: 'Auténtica tradición Italiana con pastas frescas elaboradas en el momento. Cada plato es una obra maestra culinaria del Chef Ejecutivo Adjid Vargas.',
-  //   menu: {
-  //     'Pastas': [
-  //       { name: 'Pasta 1', description: 'Descripción de la Pasta 1', price: 200 },
-  //       { name: 'Pasta 2', description: 'Descripción de la Pasta 2', price: 250 },
-  //     ],
-  //     "Entradas": [
-  //       { name: 'Entrada 1', description: 'Descripción de la Entrada 1', price: 180 },
-  //     ]
-  //   },
-  //   deliveryLinks: {
-  //     uberEats: "#",
-  //     rappi: "#",
-  //   }
-  // },
+  {
+    id: 'scarpetta',
+    name: 'Scarpetta',
+    tagLine: 'Pasta Artesanal',
+    description: 'La pasta no es solo alimento, es el lenguaje secreto del amor tejido en hilos de sémola, harina y pasión. Imagina un encuentro donde cada hebra es un  suspiro, una promesa susurrada entre amantes. Ya sea un delicado Fettuccine Alfredo, cremoso y envolvente como un abrazo cálido, o unos vibrantes Conchieglie que estallan con el sabor de un huerto mediterráneo, cada forma es una historia, toda nuestra pasta es hecha en casa con la receta de la abuela.',
+    menu: {
+      "Entradas": [
+        {
+          name: 'Insalata Meraviglia',
+          description: 'Mix de lechugas y arúgula aliñadas con nuestra vinagreta de miel mostaza, acompañada con betabel rostizado, mango, manzana, queso de cabra, nuez caramelizada.',
+          price: 205
+        },
+        {
+          name: 'Ensalada Verde',
+          description: 'Hojas de lechuga, arúgula, finas lajas de queso parmesano, aguacate tatemado, vinagreta de limón Eureka',
+          price: 175
+        },
+        {
+          name: 'Ensalada Verde',
+          description: 'Hojas de lechuga, arúgula, finas lajas de queso parmesano, aguacate tatemado, vinagreta de limón Eureka',
+          price: 175
+        },
+        {
+          name: 'Ensalada cítrica',
+          description: 'Hojas de lechuga, arúgula, queso de cabra, nuez, suprema de cítricos, aceite de oliva, aderezo de mie y mostaza',
+          price: 205
+        },
+        {
+          name: 'Insalata CAPRESE',
+          description: 'Rebanadas de queso mozzarella FIOR DI LATE y jitomate bola, acompañado de pesto de la casa, albahaca, arúgula, aceite de oliva primera prensa y finas hierbas.',
+          price: 235
+        },
+      ],
+      "Nostre Pasta": [
+        {
+          name: 'Gnocchi allá SORRENTINA',
+          description: 'Gnocchi de papa hecho en casa, salteado en mantequilla noisette, echaote, bañado en salsa pomodoro y con queso mozzarella Fior di Late ',
+          price: 250
+        },
+        {
+          name: 'Gnocchi con Ricotta',
+          description: 'Gnocchi de papa con queso Ricotta, salteados en mantequilla noisette, echalote, salsa pomodoro hecha en casa y gratinados con queso Mozzarella Fior di Late',
+          price: 265
+        },
+        {
+          name: 'Conchieglie Alla BOLOGNESA',
+          description: 'Pasta sartenada con el ragú tradicional de la casa de cocción lenta de 12 horas, terminada con parmigiano y perejil',
+          price: 300
+        },
+        {
+          name: 'Tagliatelle al Pesto',
+          description: 'Pasta salteada en ajo negro, echalote, pesto artesanal de la casa, terminado con queso parmigiano rallado y jitomates cereza aliñados con ajo y olivo',
+          price: 265
+        },
+        {
+          name: 'PASTA ALLA RUOTA DE PARMIGIANO REGGIANO',
+          description: '',
+          price: 265
+        },
+        {
+          name: 'Tagliatelle al Salmone',
+          description: 'Pasta larga con salmón en cubos (150 gr en crudo), salteado con vodka en salsa blanca y mantequilla, terminado con pimienta negra y jugo de limón Eureka',
+          price: 385
+        },
+        {
+          name: 'Caserecce Cacio e Pepe',
+          description: 'Pasta Penne bañada en salsa blanca con queso parmigiano e pecorino y terminada con pimienta negra.',
+          price: 235
+        },
+        {
+          name: 'Caserecce Cacio e Pepe',
+          description: 'Pasta Penne bañada en salsa blanca con queso parmigiano e pecorino y terminada con pimienta negra.',
+          price: 235
+        },
+        {
+          name: 'Lasagna Bolognese',
+          description: 'Lasagna con base de ragú de la casa de res y cerdo, salsa bechamel y pomodoro, acompañada con perejil y parmigiano.',
+          price: 330
+        },
+        {
+          name: 'Fetuccine allá Boscaiola',
+          description: 'Pasta con salsa blanca, mix de hongos y setas salteados en vino blanco, mantequilla, ajo y echalot, terminado con queso parmigiano rallado',
+          price: 325
+        },
+        {
+          name: 'Penne all´amatriciana',
+          description: 'Pasta corta con jitomate fresco, peperoncino, sofrito de guancialle, toque de vino rosso, aceite de oliva,y queso parmigiano',
+          price: 275
+        },
+        {
+          name: 'Spaguetti all´arrabiata',
+          description: 'Pasta salteada con ajo negro, echalote, pomodoro de la casa, perejil, picante y jitomate fresco.',
+          price: 265
+        },
+      ],
+      "AVES y CARNES": [
+        {
+          name: 'Pechuga de pollo alla Milanese',
+          description: 'Cotoletta de pollo, empanizada con Panko, acompañada de una ensalada mixta de hojas de lechuga, arúgula, aderezo de miel, cebolla morada y jitomate cereza aliñados, terminada con un toque de parmesano',
+          price: 320
+        },
+        {
+          name: 'Salmone al Pistacchio e Noci',
+          description: '220 gr lonja de salmón acompañada de salsa blanca al vino blanco, ejotes al vapor y polvo de pistache y nuez',
+          price: 390
+        },
+        {
+          name: 'Filete de res (250 gr) en salsa de Frutos rojos y balsámico',
+          description: 'Black Angus premium al Josper, puré de papa rústico, espárragos al grill, salsa reducción de frutos del bosque al vino tinto, guarnición de cebollas',
+          price: 435
+        },
+        {
+          name: 'Filete de res (250 gr) al Pepe Verde',
+          description: 'Black Angus premium al Josper, con salsa de pimienta verde flameada al brandy, acompañado con ejotes salteados y jitomates Cherry, terminado con queso parmesano y puré de papa rústico',
+          price: 645
+        },
+        {
+          name: 'Albóndigas al chipotle gratinadas',
+          description: 'Carne molida Angus hecha en casa, salsa cremosa de chipotle, gratinadas con queso de oveja',
+          price: 295
+        },
+      ],
+      "Lo Dulce":
+        [
+          {
+            name: 'Pan Francés tres leches',
+            description: 'Pan brioche caramelizado, leche condensada, frutos rojos y crema batida',
+            price: 140
+          },
+          {
+            name: 'Pan Francés en syrup de frutos rojos',
+            description: 'Pan brioche caramelizado, reducción de vino tinto con azúcar mascabado, frutos rojos y crema montada',
+            price: 140
+          },
+          {
+            name: 'Tiramisú',
+            description: 'Crema de queso mascarpone, cocoa, soletas con licor de café y palanqueta de pepita tostada',
+            price: 150
+          },
+        ],
+      "Refrescos": [
+        { name: 'Coca-Cola', description: '', price: 45 },
+        { name: 'Coca-Cola Cero', description: '', price: 45 },
+        { name: 'Coca-Cola Light', description: '', price: 45 },
+        { name: 'Agua Mineral', description: '', price: 45 },
+        { name: 'Mundet', description: '', price: 45 },
+        { name: 'Sprite', description: '', price: 45 },
+      ],
+      "Shakes": [
+        { name: 'Vainilla', description: '', price: 85 },
+        { name: 'Fresa', description: '', price: 85 },
+        { name: 'Chocolate', description: '', price: 85 },
+      ],
+    },
+    deliveryLinks: {
+      uberEats: "//uber",
+      rappi: "//rappi",
+    }
+  },
   {
     id: 'hamburger-place',
     name: 'Hamburger Place',
