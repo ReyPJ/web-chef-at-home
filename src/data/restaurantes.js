@@ -225,13 +225,13 @@ export const restaurantes = [
         { name: 'Cold Press Energizante', description: 'Naranja, mango, jengibre y piña', price: 65 },
         { name: 'Cold Press Guayaba con Naranja', description: 'Jugo prensado en frío', price: 65 },
       ],
-      'Café': [
-        { name: 'Café de la olla', description: 'Café tradicional', price: 55 },
-        { name: 'Americano', description: 'Café americano', price: 55 },
-        { name: 'Latte', description: 'Café con leche', price: 55 },
-        { name: 'Capuchino', description: 'Capuchino', price: 55 },
-        { name: 'Capuchino con cajeta', description: 'Capuchino con cajeta dulce', price: 60 },
-      ],
+      // 'Café': [
+      //   { name: 'Café de la olla', description: 'Café tradicional', price: 55 },
+      //   { name: 'Americano', description: 'Café americano', price: 55 },
+      //   { name: 'Latte', description: 'Café con leche', price: 55 },
+      //   { name: 'Capuchino', description: 'Capuchino', price: 55 },
+      //   { name: 'Capuchino con cajeta', description: 'Capuchino con cajeta dulce', price: 60 },
+      // ],
       'Atoles (8 AM a 1 PM)': [
         { name: 'Atole de Vainilla', description: '', price: 55 },
         { name: 'Atole de Fresa', description: '', price: 55 },
@@ -798,13 +798,13 @@ export const restaurantes = [
         { name: 'Guayaba con Naranja', description: '', price: 55 },
         { name: 'Energizante', description: 'Naranja, mango, jengibre y piña', price: 55 },
       ],
-      "Café": [
-        { name: 'Café de la olla', description: '', price: 48 },
-        { name: 'Americano', description: '', price: 48 },
-        { name: 'Latte', description: '', price: 50 },
-        { name: 'Capuchino', description: '', price: 50 },
-        { name: 'Capuchino con cajeta', description: '', price: 55 },
-      ],
+      // "Café": [
+      //   { name: 'Café de la olla', description: '', price: 48 },
+      //   { name: 'Americano', description: '', price: 48 },
+      //   { name: 'Latte', description: '', price: 50 },
+      //   { name: 'Capuchino', description: '', price: 50 },
+      //   { name: 'Capuchino con cajeta', description: '', price: 55 },
+      // ],
       "Atoles (8 AM a 1 PM)": [
         { name: 'Atole de Vainilla', description: '', price: 55 },
         { name: 'Atole de Fresa', description: '', price: 55 },

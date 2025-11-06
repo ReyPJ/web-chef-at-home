@@ -11,32 +11,32 @@ import WhatsAppButton from "./components/WhatsAppButton.jsx";
 const RestaurantMenu = lazy(() => import("./components/RestaurantMenu.jsx"));
 
 function App() {
-    const [activeRestaurant, setActiveRestaurant] = useState('asador-dona-tina');
+  const [activeRestaurant, setActiveRestaurant] = useState('asador-dona-tina');
 
-    return (
-        <div className="min-h-screen bg-white">
-            <Navbar />
-            <Hero />
-            <div className="content-background z-10">
-                <ComingSoonApp />
-                <WhoIsAdjid />
-                <RestaurantTabs
-                    activeRestaurant={activeRestaurant}
-                    onRestaurantChange={setActiveRestaurant}
-                />
-                <Suspense fallback={
-                    <div className="min-h-screen flex items-center justify-center">
-                        <div className="text-gold font-playball text-4xl">Cargando...</div>
-                    </div>
-                }>
-                    <RestaurantMenu activeRestaurant={activeRestaurant} />
-                </Suspense>
-            </div>
-            <Footer />
+  return (
+    <div className="min-h-screen bg-white">
+      <Navbar />
+      <Hero />
+      <div className="content-background z-10">
+        <ComingSoonApp />
+        <WhoIsAdjid />
+        <RestaurantTabs
+          activeRestaurant={activeRestaurant}
+          onRestaurantChange={setActiveRestaurant}
+        />
+        <Suspense fallback={
+          <div className="min-h-screen flex items-center justify-center">
+            <div className="text-gold font-playball text-4xl">Cargando...</div>
+          </div>
+        }>
+          <RestaurantMenu activeRestaurant={activeRestaurant} />
+        </Suspense>
+      </div>
+      <Footer />
 
-            <WhatsAppButton />
-        </div>
-    )
+      <WhatsAppButton />
+    </div>
+  )
 }
 
 export default App
