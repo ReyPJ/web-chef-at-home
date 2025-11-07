@@ -38,58 +38,58 @@ function BanquetesServices() {
   ]
 
   return (
-    <section id="services" className="relative py-20 md:py-28 bg-gradient-to-b from-black via-gray-900 to-black">
-      <div className="max-w-7xl mx-auto px-6 md:px-8">
+    <section id="services" className="relative py-12 sm:py-16 md:py-20 lg:py-28 bg-gradient-to-b from-black via-gray-900 to-black">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
         {/* Header */}
-        <div className="text-center mb-16">
-          <p className="uppercase font-lora text-xs md:text-sm tracking-[0.25em] text-gold mb-4">
+        <div className="text-center mb-10 sm:mb-12 md:mb-16">
+          <p className="uppercase font-lora text-[0.65rem] sm:text-xs md:text-sm tracking-[0.2em] sm:tracking-[0.25em] text-gold mb-3 sm:mb-4">
             Nuestros Servicios
           </p>
-          <h2 className="font-playball text-5xl md:text-6xl lg:text-7xl text-white mb-6">
+          <h2 className="font-playball text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white mb-4 sm:mb-5 md:mb-6 leading-tight px-4">
             Eventos a tu Medida
           </h2>
           <div className="divider-line max-w-2xl mx-auto" />
-          <p className="font-lora text-gray-300 text-base md:text-lg max-w-3xl mx-auto mt-6">
+          <p className="font-lora text-gray-300 text-sm sm:text-base md:text-lg max-w-3xl mx-auto mt-4 sm:mt-5 md:mt-6 px-4">
             Ofrecemos soluciones completas para cada tipo de evento, adaptándonos a tus necesidades
             y superando tus expectativas.
           </p>
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8">
           {services.map((service, index) => {
             const { Icon } = service
             return (
             <div
               key={index}
-              className="group relative bg-black/50 border border-gold/20 rounded-sm p-8 hover:border-gold/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-gold/10"
+              className="group relative bg-black/50 border border-gold/20 rounded-sm p-5 sm:p-6 md:p-8 hover:border-gold/60 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-gold/10"
             >
               {/* Icon */}
-              <div className="text-gold mb-4 transform group-hover:scale-110 transition-transform duration-500">
-                <Icon size={48} />
+              <div className="text-gold mb-3 sm:mb-4 transform group-hover:scale-110 transition-transform duration-500">
+                <Icon size={40} className="sm:w-12 sm:h-12" />
               </div>
 
               {/* Title */}
-              <h3 className="font-lora text-2xl md:text-3xl text-white mb-4 group-hover:text-gold transition-colors duration-300">
+              <h3 className="font-lora text-xl sm:text-2xl md:text-3xl text-white mb-3 sm:mb-4 group-hover:text-gold transition-colors duration-300">
                 {service.title}
               </h3>
 
               {/* Description */}
-              <p className="font-lora text-gray-400 text-sm md:text-base leading-relaxed">
+              <p className="font-lora text-gray-400 text-xs sm:text-sm md:text-base leading-relaxed">
                 {service.description}
               </p>
 
               {/* Decorative corner */}
-              <div className="absolute top-0 right-0 w-16 h-16 border-t-2 border-r-2 border-gold/0 group-hover:border-gold/50 transition-all duration-500 rounded-tr-sm" />
-              <div className="absolute bottom-0 left-0 w-16 h-16 border-b-2 border-l-2 border-gold/0 group-hover:border-gold/50 transition-all duration-500 rounded-bl-sm" />
+              <div className="absolute top-0 right-0 w-12 sm:w-14 md:w-16 h-12 sm:h-14 md:h-16 border-t-2 border-r-2 border-gold/0 group-hover:border-gold/50 transition-all duration-500 rounded-tr-sm" />
+              <div className="absolute bottom-0 left-0 w-12 sm:w-14 md:w-16 h-12 sm:h-14 md:h-16 border-b-2 border-l-2 border-gold/0 group-hover:border-gold/50 transition-all duration-500 rounded-bl-sm" />
             </div>
           )})}
         </div>
 
         {/* Additional Services */}
-        <div className="mt-16 text-center">
-          <div className="inline-block bg-gold/10 border border-gold/30 rounded-sm px-8 py-6">
-            <p className="font-lora text-white text-base md:text-lg">
+        <div className="mt-10 sm:mt-12 md:mt-16 text-center px-4">
+          <div className="inline-block bg-gold/10 border border-gold/30 rounded-sm px-5 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6">
+            <p className="font-lora text-white text-xs sm:text-sm md:text-base lg:text-lg">
               <span className="text-gold font-semibold">Servicio completo incluido:</span> Personal capacitado,
               mobiliario, mantelería, vajilla, cristalería, decoración y coordinación del evento.
             </p>
