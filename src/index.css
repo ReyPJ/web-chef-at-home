@@ -45,7 +45,7 @@
     background-image: url('/src/assets/images/gourmet-kitchen.webp');
     background-size: cover;
     height: 50vh;
-    width: 100vw;
+    width: 100%;
     background-position: center;
     position: relative;
 }
@@ -181,4 +181,74 @@ nav > div {
 /* Smooth scroll para toda la página */
 html {
     scroll-behavior: smooth;
+}
+
+/* Banquetes Hero Slider CSS */
+.banquetes-hero-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.banquetes-hero-slider::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.3) 100%);
+    z-index: 10;
+    pointer-events: none;
+}
+
+/* Smooth slide transitions */
+@keyframes fadeInSlide {
+    from {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.banquetes-hero-slider [class*="opacity-100"] {
+    animation: fadeInSlide 1s ease-out;
+}
+
+/* Custom scrollbar for entire page */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFC600;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FFD700;
+}
+
+/* Input date picker styling */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+}
+
+/* Prevent layout shift during image loads */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Enhance focus states for accessibility */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid #FFC600;
+    outline-offset: 2px;
 }

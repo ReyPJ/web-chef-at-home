@@ -16,7 +16,7 @@ function Navbar() {
         {/* Links de navegación a la derecha */}
         <div className="flex items-center gap-4 md:gap-6 lg:gap-8 ml-auto text-white">
           <a
-            href="/index.html"
+            href="/"
             className="font-lora text-xs md:text-sm uppercase tracking-widest hover:text-gold transition-colors"
           >
             Inicio
