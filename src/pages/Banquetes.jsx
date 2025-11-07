@@ -9,7 +9,7 @@ import BanquetesContact from "../components/BanquetesContact.jsx"
 
 function BanquetesPage() {
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-black overflow-x-hidden">
       <WhatsAppButton />
       <BanquetesHero />
       <BanquetesNavbar />

@@ -11,7 +11,11 @@
 
 @layer base {
     body {
-        @apply bg-white text-black;
+        @apply bg-white text-black overflow-x-hidden;
+    }
+
+    html {
+        @apply overflow-x-hidden;
     }
 }
 
