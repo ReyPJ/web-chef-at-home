@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { IoMenu, IoClose } from 'react-icons/io5'
 import chefLogo from "../assets/images/chetatlogo.png"
 
 function BanquetesNavbar() {
@@ -36,17 +35,27 @@ function BanquetesNavbar() {
           </div>
         </a>
 
-        {/* Hamburger Button - Solo mobile */}
+        {/* Botón hamburguesa para móvil */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden z-50 text-white hover:text-gold transition-colors p-2"
+          className="ml-auto md:hidden text-white hover:text-gold transition-colors z-50"
           aria-label="Toggle menu"
         >
-          {isMenuOpen ? (
-            <IoClose className="w-7 h-7" />
-          ) : (
-            <IoMenu className="w-7 h-7" />
-          )}
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            {isMenuOpen ? (
+              <path d="M6 18L18 6M6 6l12 12" />
+            ) : (
+              <path d="M4 6h16M4 12h16M4 18h16" />
+            )}
+          </svg>
         </button>
 
         {/* Links de navegación - Desktop */}
@@ -94,60 +103,64 @@ function BanquetesNavbar() {
           </button>
         </div>
 
-        {/* Mobile Menu Overlay */}
+        {/* Menú móvil - Deslizante desde la derecha */}
+        <div
+          className={`${
+            isMenuOpen ? "translate-x-0" : "translate-x-full"
+          } md:hidden fixed top-0 right-0 h-screen w-64 bg-black bg-opacity-95 backdrop-blur-sm transition-transform duration-300 ease-in-out z-40 pt-20`}
+        >
+          <div className="flex flex-col gap-6 px-8 text-white">
+            <a
+              href="/"
+              onClick={() => setIsMenuOpen(false)}
+              className="font-lora text-sm uppercase tracking-widest hover:text-gold transition-colors border-b border-gold pb-3"
+            >
+              Inicio
+            </a>
+
+            <button
+              onClick={() => scrollToSection('about')}
+              className="font-lora text-sm uppercase tracking-widest hover:text-gold transition-colors border-b border-gold pb-3 text-left"
+            >
+              Nosotros
+            </button>
+
+            <button
+              onClick={() => scrollToSection('services')}
+              className="font-lora text-sm uppercase tracking-widest hover:text-gold transition-colors border-b border-gold pb-3 text-left"
+            >
+              Servicios
+            </button>
+
+            <button
+              onClick={() => scrollToSection('gallery')}
+              className="font-lora text-sm uppercase tracking-widest hover:text-gold transition-colors border-b border-gold pb-3 text-left"
+            >
+              Galería
+            </button>
+
+            <button
+              onClick={() => scrollToSection('menu')}
+              className="font-lora text-sm uppercase tracking-widest hover:text-gold transition-colors border-b border-gold pb-3 text-left"
+            >
+              Menú
+            </button>
+
+            <button
+              onClick={() => scrollToSection('contact')}
+              className="bg-gold hover:bg-gold/90 text-black font-lora text-sm uppercase tracking-wider px-6 py-2 rounded-sm transition-all duration-300 mt-2"
+            >
+              Contacto
+            </button>
+          </div>
+        </div>
+
+        {/* Overlay para cerrar el menú */}
         {isMenuOpen && (
           <div
-            className="fixed inset-0 bg-black/95 backdrop-blur-lg md:hidden z-40"
+            className="md:hidden fixed inset-0 bg-black bg-opacity-50 z-30"
             onClick={() => setIsMenuOpen(false)}
-          >
-            <div
-              className="flex flex-col items-center justify-center h-full gap-6 px-8"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <a
-                href="/"
-                className="font-lora text-lg uppercase tracking-widest text-white hover:text-gold transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Inicio
-              </a>
-
-              <button
-                onClick={() => scrollToSection('about')}
-                className="font-lora text-lg uppercase tracking-widest text-white hover:text-gold transition-colors"
-              >
-                Nosotros
-              </button>
-
-              <button
-                onClick={() => scrollToSection('services')}
-                className="font-lora text-lg uppercase tracking-widest text-white hover:text-gold transition-colors"
-              >
-                Servicios
-              </button>
-
-              <button
-                onClick={() => scrollToSection('gallery')}
-                className="font-lora text-lg uppercase tracking-widest text-white hover:text-gold transition-colors"
-              >
-                Galería
-              </button>
-
-              <button
-                onClick={() => scrollToSection('menu')}
-                className="font-lora text-lg uppercase tracking-widest text-white hover:text-gold transition-colors"
-              >
-                Menú
-              </button>
-
-              <button
-                onClick={() => scrollToSection('contact')}
-                className="bg-gold hover:bg-gold/90 text-black font-lora text-base uppercase tracking-wider px-8 py-3 rounded-sm transition-all duration-300 mt-4"
-              >
-                Contacto
-              </button>
-            </div>
-          </div>
+          ></div>
         )}
       </div>
     </nav>
