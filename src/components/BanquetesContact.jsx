@@ -371,8 +371,8 @@ function BanquetesContact() {
                   <MdPhone className="text-gold text-2xl sm:text-3xl flex-shrink-0" />
                   <div>
                     <h3 className="font-lora text-white text-base sm:text-lg mb-1 sm:mb-2">Teléfono</h3>
-                    <a href="tel:+525512345678" className="font-lora text-gray-300 text-xs sm:text-sm md:text-base hover:text-gold transition-colors">
-                      +52 55 1234 5678
+                    <a href="tel:+529841880762" className="font-lora text-gray-300 text-xs sm:text-sm md:text-base hover:text-gold transition-colors">
+                      +52 984 188 0762
                     </a>
                   </div>
                 </div>
