@@ -170,6 +170,11 @@ export const restaurantes = [
           price: 195
         },
         {
+          name: 'Sopa de Tortillas',
+          description: 'Caldillo a base de tortilla frita con chile guajillo, ancho y jitomate, servida con aguacate en cubos, chicharrón, chile en lascas, queso panela y cilantro',
+          price: 165
+        },
+        {
           name: 'Quesadillas (2 pza)',
           description: 'Lechuga en chiffonade, crema, queso fresco. Opciones: Chicharrón prensado, Queso, Flor de calabaza, Champiñones con setas al ajillo, Tinga de pollo, Tinga de res',
           price: 150
@@ -412,32 +417,32 @@ export const restaurantes = [
         {
           name: 'Clásica',
           description: 'Pan Brioche hecho en casa, Carne molida CAB\n(Certified Angus Beef), queso de oveja de rancho,\ncebolla, lechuga, jitomate bola, papas a la francesa,\ny aderezo de la casa con pepinillos, toque de\nTabasco y Mayo',
-          price: 185
+          price: 195
         },
         {
           name: 'Con Pancetta Ahumada',
           description: 'Pan Brioche hecho en casa, Carne molida CAB\n(Certified Angus Beef), queso de oveja de rancho,\ncebolla, lechuga, jitomate bola, papas a la francesa,\nTOCINETA AHUMADA AL GRILL, y aderezo de la\ncasa con pepinillos, toque de Tabasco y Mayo',
-          price: 195
+          price: 205
         },
         {
           name: 'Hawaiana',
           description: 'Pan Brioche hecho en casa, Carne molida CAB\n(Certified Angus Beef), queso de oveja de rancho,\ncebolla, lechuga, jitomate bola, papas a la francesa,\nEBANADA DE PIÑA Y JAMÓN DE YORK AL GRILL,\ny aderezo de la casa con pepinillos, toque de\nTabasco y Mayo',
-          price: 195
+          price: 210
         },
         {
           name: 'Smashed BBQ',
           description: 'Pan Brioche hecho en casa, Carne molida CAB\n(Certified Angus Beef), queso de oveja de rancho,\ncebolla, lechuga, jitomate bola, papas a la francesa,\ntocineta ahumada, CEBOLLA CARAMELIZADA Y\nSALSA BBQ hecha en casa, aderezo de la casa\ncon pepinillos, toque de Tabasco y Mayo',
-          price: 195
+          price: 210
         },
         {
           name: 'Vegetariana Gourmet',
           description: 'Pan Brioche hecho en casa, PORTOBELLO\nLACQUEADO CON SOYA Y BALSÁMICO, QUESO\nAZUL, cebolla, lechuga, jitomate bola, papas a la\nfrancesa y aderezo de la casa con pepinillos, toque\nde Tabasco y Mayo',
-          price: 195
+          price: 210
         },
         {
-          name: 'Double Cheese Bruger',
-          description: 'Pan Brioche hecho en casa, DOBLE CARNE CAB, DOBLE QUESO DE OVEJA GRATINDO cebolla, lechuga, jitomate bola, papas a la francesa y aderezo de la casa con pepinillos, toque de Tabasco y Mayo',
-          price: 240
+          name: 'Triple Cheese Bruger',
+          description: 'Pan Brioche hecho en casa, TRIPLE CARNE CAB, TRIPLE QUESO DE OVEJA GRATINDO cebolla, lechuga, jitomate bola, papas a la francesa y aderezo de la casa con pepinillos, toque de Tabasco y Mayo',
+          price: 250
         },
       ],
       "Hot Dogs y extras": [
@@ -449,12 +454,17 @@ export const restaurantes = [
         {
           name: 'Cangre-Jocho!',
           description: 'Pan Brioche de Hot Dog hecho en casa, SURIMI y CANGREJO con cebolla morada, mayo, Dijon, toque de limón Eureka, crunchy croton de pan al ajo, lechuga, salsa de soya, papas a la francesa y aderezo de la casa con pepinillos, toque de tabasco y mayo, papas a la francesa',
-          price: 255
+          price: 265
         },
         {
           name: 'Deditos de Queso',
           description: 'Queso Mozzarella empanizado con panko Japones, servido con salsa pomodoro y papas a la francesa',
-          price: 170
+          price: 185
+        },
+        {
+          name: 'Papas a la francesa',
+          description: 'Crujientes papas a la francesa (140gr en crudo) acompañadas con nuestro aderezo de la casa',
+          price: 140
         }
       ],
       "Ensaladas": [
@@ -500,7 +510,7 @@ export const restaurantes = [
         {
           name: "Pan Francés en syrup de frutos rojos",
           description: "Pan brioche caramelizado, reducción de vino tinto\ncon azúcar mascabado, frutos rojos y crema\nmontada",
-          price: 140
+          price: 150
         },
         {
           name: "Tiramisú",
