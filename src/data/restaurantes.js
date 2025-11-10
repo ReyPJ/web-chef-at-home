@@ -652,72 +652,72 @@ export const restaurantes = [
       rappi: "//rappi",
     }
   },
-  {
-    id: 'pozoleando',
-    name: 'Pozoleando',
-    tagLine: 'El tradicional Pozole con calidad Gourmet',
-    description: 'El Pozole es un abrazo cálido en un tazón de barro, una caricia de la memoria y un suspiro de la tradición mexicana. El caldo, como un corazón generoso, entrega sus secretos en cada hervor, tejiendo en su esencia la ternura de la carne y el sabor ancestral del maíz cacahuacintle. Sus notas de comino y orégano son susurros perfumados, recuerdos que se elevan con el vapor hasta el alma... es un plato que no solo alimenta el cuerpo, sino que nutre el alma, uniendo a la familia y creando momentos imborrables…',
-    menu: {
-      'Entradas': [
-        {
-          name: 'Mini Quesadillas de masa azul (4 pza)',
-          description: 'Masa azul, Queso Oaxaca, servidas con salsa martajada y frijoles de la olla',
-          price: 135
-        },
-        {
-          name: 'Memelas Pellizcadas (3 pza)',
-          description: 'De Frijol Refrito, salsa martajada, queso, crema y cebolla morada curtida',
-          price: 135
-        },
-      ],
-      'Pozoles': [
-        {
-          name: 'Pozole Blanco',
-          description: 'Pozole blanco con pechuga de pollo deshebrada o cerdo en cubos, acompañado de lechuga, rábano, limón, orégano, chile de árbol, 2 tostadas y crema',
-          price: 155
-        },
-        {
-          name: 'Pozole Rojo',
-          description: 'Pozole rojo hecho con fondo de chile guajillo, con pechuga de pollo deshebrada o cerdo en cubos, acompañado de lechuga, rábano, limón, orégano, chile de árbol, 2 tostadas y crema',
-          price: 155
-        },
-      ],
-      'Lo Dulce': [
-        {
-          name: 'Churros',
-          description: 'Cuatro piezas de churros con salsa de cajeta y frutos rojos (se fríen al instante)',
-          price: 140
-        },
-        {
-          name: 'Arroz con leche',
-          description: 'Arroz con cocción lenta con sus tres eches, canela, y uva pasa, servido con crema batida',
-          price: 130
-        },
-        {
-          name: 'Fresas con crema',
-          description: 'Maceradas en balsámico y miel de abeja, crema de mascarpone, crumble de nuez y pepita, foam de fresa',
-          price: 150
-        },
-      ],
-      "Refrescos": [
-        { name: 'Coca-Cola', description: '', price: 45 },
-        { name: 'Coca-Cola Cero', description: '', price: 45 },
-        { name: 'Coca-Cola Light', description: '', price: 45 },
-        { name: 'Agua Mineral', description: '', price: 45 },
-        { name: 'Mundet', description: '', price: 45 },
-        { name: 'Sprite', description: '', price: 45 },
-      ],
-      "Shakes": [
-        { name: 'Vainilla', description: '', price: 85 },
-        { name: 'Fresa', description: '', price: 85 },
-        { name: 'Chocolate', description: '', price: 85 },
-      ]
-    },
-    deliveryLinks: {
-      uberEats: "//uber",
-      rappi: "//rappi",
-    }
-  },
+  // {
+  //   id: 'pozoleando',
+  //   name: 'Pozoleando',
+  //   tagLine: 'El tradicional Pozole con calidad Gourmet',
+  //   description: 'El Pozole es un abrazo cálido en un tazón de barro, una caricia de la memoria y un suspiro de la tradición mexicana. El caldo, como un corazón generoso, entrega sus secretos en cada hervor, tejiendo en su esencia la ternura de la carne y el sabor ancestral del maíz cacahuacintle. Sus notas de comino y orégano son susurros perfumados, recuerdos que se elevan con el vapor hasta el alma... es un plato que no solo alimenta el cuerpo, sino que nutre el alma, uniendo a la familia y creando momentos imborrables…',
+  //   menu: {
+  //     'Entradas': [
+  //       {
+  //         name: 'Mini Quesadillas de masa azul (4 pza)',
+  //         description: 'Masa azul, Queso Oaxaca, servidas con salsa martajada y frijoles de la olla',
+  //         price: 135
+  //       },
+  //       {
+  //         name: 'Memelas Pellizcadas (3 pza)',
+  //         description: 'De Frijol Refrito, salsa martajada, queso, crema y cebolla morada curtida',
+  //         price: 135
+  //       },
+  //     ],
+  //     'Pozoles': [
+  //       {
+  //         name: 'Pozole Blanco',
+  //         description: 'Pozole blanco con pechuga de pollo deshebrada o cerdo en cubos, acompañado de lechuga, rábano, limón, orégano, chile de árbol, 2 tostadas y crema',
+  //         price: 155
+  //       },
+  //       {
+  //         name: 'Pozole Rojo',
+  //         description: 'Pozole rojo hecho con fondo de chile guajillo, con pechuga de pollo deshebrada o cerdo en cubos, acompañado de lechuga, rábano, limón, orégano, chile de árbol, 2 tostadas y crema',
+  //         price: 155
+  //       },
+  //     ],
+  //     'Lo Dulce': [
+  //       {
+  //         name: 'Churros',
+  //         description: 'Cuatro piezas de churros con salsa de cajeta y frutos rojos (se fríen al instante)',
+  //         price: 140
+  //       },
+  //       {
+  //         name: 'Arroz con leche',
+  //         description: 'Arroz con cocción lenta con sus tres eches, canela, y uva pasa, servido con crema batida',
+  //         price: 130
+  //       },
+  //       {
+  //         name: 'Fresas con crema',
+  //         description: 'Maceradas en balsámico y miel de abeja, crema de mascarpone, crumble de nuez y pepita, foam de fresa',
+  //         price: 150
+  //       },
+  //     ],
+  //     "Refrescos": [
+  //       { name: 'Coca-Cola', description: '', price: 45 },
+  //       { name: 'Coca-Cola Cero', description: '', price: 45 },
+  //       { name: 'Coca-Cola Light', description: '', price: 45 },
+  //       { name: 'Agua Mineral', description: '', price: 45 },
+  //       { name: 'Mundet', description: '', price: 45 },
+  //       { name: 'Sprite', description: '', price: 45 },
+  //     ],
+  //     "Shakes": [
+  //       { name: 'Vainilla', description: '', price: 85 },
+  //       { name: 'Fresa', description: '', price: 85 },
+  //       { name: 'Chocolate', description: '', price: 85 },
+  //     ]
+  //   },
+  //   deliveryLinks: {
+  //     uberEats: "//uber",
+  //     rappi: "//rappi",
+  //   }
+  // },
   {
     id: 'valyas-cinnabons',
     name: "Valya's Cinnabons",
