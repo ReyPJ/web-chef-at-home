@@ -252,7 +252,7 @@ export const restaurantes = [
       "Entradas": [
         {
           name: 'Insalata Meraviglia',
-          description: 'Mix de lechugas y arúgula aliñadas con nuestra vinagreta de miel mostaza, acompañada con betabel rostizado, mango, manzana, queso de cabra, nuez caramelizada.',
+          description: 'Mix de lechugas y arúgula aliñadas con nuestra vinagreta de fresa, acompañada con betabel rostizado, mango, manzana, queso de cabra, pistacho caramelizado.',
           price: 205
         },
         {
