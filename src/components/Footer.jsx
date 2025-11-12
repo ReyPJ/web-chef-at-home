@@ -1,5 +1,6 @@
 // @ts-ignore
 import logo from "../assets/images/chetatlogo.png"
+import { Link } from "react-router-dom"
 
 function Footer() {
     return (
@@ -34,6 +35,16 @@ function Footer() {
                         </p>
                     </div>
                 </div>
+            </div>
+
+            {/* Links legales */}
+            <div className="max-w-6xl mx-auto text-center mb-6">
+                <Link
+                    to="/privacidad-terminos"
+                    className="font-lora text-white/60 hover:text-gold text-xs md:text-sm uppercase tracking-wider transition-colors"
+                >
+                    Privacidad y Términos
+                </Link>
             </div>
 
             {/* Copyright */}
