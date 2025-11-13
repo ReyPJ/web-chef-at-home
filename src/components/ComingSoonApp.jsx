@@ -8,7 +8,7 @@ function ComingSoonApp() {
             Chef At Home App
           </h2>
           <h2 className="font-lora text-5xl text-gold mb-2 italic">
-            ¡GRAN INAUGURACIÓN 12 NOVIEMBRE!
+            ¡GRAN INAUGURACIÓN 14 NOVIEMBRE!
           </h2>
         </div>
 
@@ -46,7 +46,7 @@ function ComingSoonApp() {
         {/* Número de teléfono */}
         <div className="mt-8 pt-6 border-t border-gold/20">
           <p className="font-lora text-white/60 text-xs md:text-sm uppercase tracking-[0.2em] mb-3">
-            Mientras tanto, ordena por teléfono
+            Mientras tanto, ordena por el WhatsApp
           </p>
           <a
             href="tel:+525639511951"
