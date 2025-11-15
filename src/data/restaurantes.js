@@ -136,28 +136,28 @@ export const restaurantes = [
           price: 185
         },
       ],
-      'Lo Dulce': [
-        {
-          name: 'Concha rellena (80gr)',
-          description: 'Nata montada, hojuelas de almendra horneadas, amaranto y frutos rojos',
-          price: 125
-        },
-        {
-          name: 'Pan Francés tres leches',
-          description: 'Pan brioche caramelizado, leche condensada, frutos rojos y crema batida',
-          price: 140
-        },
-        {
-          name: 'Pan Francés en syrup de frutos rojos',
-          description: 'Pan brioche caramelizado, reducción de vino tinto con azúcar mascabado, frutos rojos y crema montada',
-          price: 150
-        },
-        {
-          name: 'Tiramisú de Requesón',
-          description: 'Requesón, queso mascarpone, cocoa, palanqueta de pepita tostada',
-          price: 150
-        },
-      ],
+      // 'Lo Dulce': [
+      //   {
+      //     name: 'Concha rellena (80gr)',
+      //     description: 'Nata montada, hojuelas de almendra horneadas, amaranto y frutos rojos',
+      //     price: 125
+      //   },
+      //   {
+      //     name: 'Pan Francés tres leches',
+      //     description: 'Pan brioche caramelizado, leche condensada, frutos rojos y crema batida',
+      //     price: 140
+      //   },
+      //   {
+      //     name: 'Pan Francés en syrup de frutos rojos',
+      //     description: 'Pan brioche caramelizado, reducción de vino tinto con azúcar mascabado, frutos rojos y crema montada',
+      //     price: 150
+      //   },
+      //   {
+      //     name: 'Tiramisú de Requesón',
+      //     description: 'Requesón, queso mascarpone, cocoa, palanqueta de pepita tostada',
+      //     price: 150
+      //   },
+      // ],
       'Todo el día': [
         {
           name: 'Ensalada Verde',
@@ -179,11 +179,11 @@ export const restaurantes = [
           description: 'Lechuga en chiffonade, crema, queso fresco. Opciones: Chicharrón prensado, Queso, Flor de calabaza, Champiñones con setas al ajillo, Tinga de pollo, Tinga de res',
           price: 150
         },
-        {
-          name: 'Pescadillas de Sierra con salsa verde de habanero (5 pzas)',
-          description: 'Pescado Sierra tatemado, cebolla morada, limón, cilantro, salsa verde de habanero, queso, lechuga y crema ácida',
-          price: 220
-        },
+        // {
+        //   name: 'Pescadillas de Sierra con salsa verde de habanero (5 pzas)',
+        //   description: 'Pescado Sierra tatemado, cebolla morada, limón, cilantro, salsa verde de habanero, queso, lechuga y crema ácida',
+        //   price: 220
+        // },
         {
           name: 'Pechuga de pollo empanizada',
           description: 'Con Pasta Fetuccine hecha en casa en salsa cremosa de chipotle, aguacate y frijoles de la olla',
@@ -199,21 +199,21 @@ export const restaurantes = [
           description: 'Black Angus premium al Josper, puré de papa rústico, gratinado con queso de oveja de rancho, salsa Morita hecha en casa',
           price: 415
         },
-        {
-          name: 'Filete de res (250 gr) con Escamoles (50 gr)',
-          description: 'Black Angus premium al Josper, con salsa de tuétano, coronado con escamoles salteados al epazote, sobre puré de papa rústico',
-          price: 645
-        },
+        // {
+        //   name: 'Filete de res (250 gr) con Escamoles (50 gr)',
+        //   description: 'Black Angus premium al Josper, con salsa de tuétano, coronado con escamoles salteados al epazote, sobre puré de papa rústico',
+        //   price: 645
+        // },
         {
           name: 'Albóndigas al chipotle',
           description: 'Carne molida Angus hecha en casa, salsa cremosa de chipotle, gratinadas con queso de oveja',
           price: 220
         },
-        {
-          name: 'Manchamanteles "Doña Tina"',
-          description: 'Costilla y lomo de cerdo en guiso de chile guajillo y chile ancho, papa Idaho en cubos, cocido lentamente, servido con arroz blanco (Receta de la familia)',
-          price: 215
-        },
+        // {
+        //   name: 'Manchamanteles "Doña Tina"',
+        //   description: 'Costilla y lomo de cerdo en guiso de chile guajillo y chile ancho, papa Idaho en cubos, cocido lentamente, servido con arroz blanco (Receta de la familia)',
+        //   price: 215
+        // },
       ],
       'Refrescos': [
         { name: 'Coca Cola', description: 'Refresco', price: 45 },
@@ -282,26 +282,26 @@ export const restaurantes = [
         },
       ],
       "Nostre Pasta": [
-        {
-          name: 'Gnocchi allá SORRENTINA',
-          description: 'Gnocchi de papa hecho en casa, salteado en mantequilla noisette, echaote, bañado en salsa pomodoro y con queso mozzarella Fior di Late ',
-          price: 250
-        },
-        {
-          name: 'Gnocchi con Ricotta',
-          description: 'Gnocchi de papa con queso Ricotta, salteados en mantequilla noisette, echalote, salsa pomodoro hecha en casa y gratinados con queso Mozzarella Fior di Late',
-          price: 265
-        },
-        {
-          name: 'Conchieglie Alla BOLOGNESA',
-          description: 'Pasta sartenada con el ragú tradicional de la casa de cocción lenta de 12 horas, terminada con parmigiano y perejil',
-          price: 300
-        },
-        {
-          name: 'Tagliatelle al Pesto',
-          description: 'Pasta salteada en ajo negro, echalote, pesto artesanal de la casa, terminado con queso parmigiano rallado y jitomates cereza aliñados con ajo y olivo',
-          price: 265
-        },
+        // {
+        //   name: 'Gnocchi allá SORRENTINA',
+        //   description: 'Gnocchi de papa hecho en casa, salteado en mantequilla noisette, echaote, bañado en salsa pomodoro y con queso mozzarella Fior di Late ',
+        //   price: 250
+        // },
+        // {
+        //   name: 'Gnocchi con Ricotta',
+        //   description: 'Gnocchi de papa con queso Ricotta, salteados en mantequilla noisette, echalote, salsa pomodoro hecha en casa y gratinados con queso Mozzarella Fior di Late',
+        //   price: 265
+        // },
+        // {
+        //   name: 'Conchieglie Alla BOLOGNESA',
+        //   description: 'Pasta sartenada con el ragú tradicional de la casa de cocción lenta de 12 horas, terminada con parmigiano y perejil',
+        //   price: 300
+        // },
+        // {
+        //   name: 'Tagliatelle al Pesto',
+        //   description: 'Pasta salteada en ajo negro, echalote, pesto artesanal de la casa, terminado con queso parmigiano rallado y jitomates cereza aliñados con ajo y olivo',
+        //   price: 265
+        // },
         {
           name: 'PASTA ALLA RUOTA DE PARMIGIANO REGGIANO',
           description: '',
@@ -322,11 +322,11 @@ export const restaurantes = [
           description: 'Pasta Penne bañada en salsa blanca con queso parmigiano e pecorino y terminada con pimienta negra.',
           price: 235
         },
-        {
-          name: 'Lasagna Bolognese',
-          description: 'Lasagna con base de ragú de la casa de res y cerdo, salsa bechamel y pomodoro, acompañada con perejil y parmigiano.',
-          price: 330
-        },
+        // {
+        //   name: 'Lasagna Bolognese',
+        //   description: 'Lasagna con base de ragú de la casa de res y cerdo, salsa bechamel y pomodoro, acompañada con perejil y parmigiano.',
+        //   price: 330
+        // },
         {
           name: 'Fetuccine allá Boscaiola',
           description: 'Pasta con salsa blanca, mix de hongos y setas salteados en vino blanco, mantequilla, ajo y echalot, terminado con queso parmigiano rallado',
@@ -372,21 +372,21 @@ export const restaurantes = [
       ],
       "Lo Dulce":
         [
-          {
-            name: 'Pan Francés tres leches',
-            description: 'Pan brioche caramelizado, leche condensada, frutos rojos y crema batida',
-            price: 140
-          },
-          {
-            name: 'Pan Francés en syrup de frutos rojos',
-            description: 'Pan brioche caramelizado, reducción de vino tinto con azúcar mascabado, frutos rojos y crema montada',
-            price: 140
-          },
-          {
-            name: 'Tiramisú',
-            description: 'Crema de queso mascarpone, cocoa, soletas con licor de café y palanqueta de pepita tostada',
-            price: 150
-          },
+          // {
+          //   name: 'Pan Francés tres leches',
+          //   description: 'Pan brioche caramelizado, leche condensada, frutos rojos y crema batida',
+          //   price: 140
+          // },
+          // {
+          //   name: 'Pan Francés en syrup de frutos rojos',
+          //   description: 'Pan brioche caramelizado, reducción de vino tinto con azúcar mascabado, frutos rojos y crema montada',
+          //   price: 140
+          // },
+          // {
+          //   name: 'Tiramisú',
+          //   description: 'Crema de queso mascarpone, cocoa, soletas con licor de café y palanqueta de pepita tostada',
+          //   price: 150
+          // },
         ],
       "Refrescos": [
         { name: 'Coca-Cola', description: '', price: 45 },
@@ -396,11 +396,11 @@ export const restaurantes = [
         { name: 'Mundet', description: '', price: 45 },
         { name: 'Sprite', description: '', price: 45 },
       ],
-      "Shakes": [
-        { name: 'Vainilla', description: '', price: 85 },
-        { name: 'Fresa', description: '', price: 85 },
-        { name: 'Chocolate', description: '', price: 85 },
-      ],
+      // "Shakes": [
+      //   { name: 'Vainilla', description: '', price: 85 },
+      //   { name: 'Fresa', description: '', price: 85 },
+      //   { name: 'Chocolate', description: '', price: 85 },
+      // ],
     },
     deliveryLinks: {
       uberEats: "//uber",
@@ -451,11 +451,11 @@ export const restaurantes = [
           description: 'Pan Brioche de Hot Dog hecho en casa, salchicha Oscar Mayer al grill con tocino, cebolla, caramelizada y Aderezo de la casa con pepinillos, toque de Tabasco y Mayo, papas a la francesa',
           price: 185
         },
-        {
-          name: 'Cangre-Jocho!',
-          description: 'Pan Brioche de Hot Dog hecho en casa, SURIMI y CANGREJO con cebolla morada, mayo, Dijon, toque de limón Eureka, crunchy croton de pan al ajo, lechuga, salsa de soya, papas a la francesa y aderezo de la casa con pepinillos, toque de tabasco y mayo, papas a la francesa',
-          price: 265
-        },
+        // {
+        //   name: 'Cangre-Jocho!',
+        //   description: 'Pan Brioche de Hot Dog hecho en casa, SURIMI y CANGREJO con cebolla morada, mayo, Dijon, toque de limón Eureka, crunchy croton de pan al ajo, lechuga, salsa de soya, papas a la francesa y aderezo de la casa con pepinillos, toque de tabasco y mayo, papas a la francesa',
+        //   price: 265
+        // },
         {
           name: 'Deditos de Queso',
           description: 'Queso Mozzarella empanizado con panko Japones, servido con salsa pomodoro y papas a la francesa',
@@ -490,11 +490,11 @@ export const restaurantes = [
           description: "Black Angus premium al Josper, puré de papa\nrústico, espárragos al grill gratinado con queso de\noveja de rancho, salsa de tuétano en casa",
           price: 415
         },
-        {
-          name: "Filete de Res (250 gr) con Escamoles (50 gr)",
-          description: "Black Angus premium al Josper, con salsa de\ntuétano, coronado con escamoles salteados al\nepazote, sobre puré de papa rústico",
-          price: 645
-        },
+        // {
+        //   name: "Filete de Res (250 gr) con Escamoles (50 gr)",
+        //   description: "Black Angus premium al Josper, con salsa de\ntuétano, coronado con escamoles salteados al\nepazote, sobre puré de papa rústico",
+        //   price: 645
+        // },
         {
           name: "Albóndigas al chipotle gratinadas",
           description: "Carne molida Angus hecha en casa, salsa cremosa\nde chipotle, gratinadas con queso de oveja",
@@ -502,21 +502,21 @@ export const restaurantes = [
         },
       ],
       "Lo Dulce": [
-        {
-          name: "Pan Francés tres leches",
-          description: "Pan brioche caramelizado, leche condensada,\nfrutos rojos y crema batida",
-          price: 140
-        },
-        {
-          name: "Pan Francés en syrup de frutos rojos",
-          description: "Pan brioche caramelizado, reducción de vino tinto\ncon azúcar mascabado, frutos rojos y crema\nmontada",
-          price: 150
-        },
-        {
-          name: "Tiramisú",
-          description: "Crema de queso mascarpone, cocoa, soletas con\nlicor de café, cocoa y palanqueta de pepita tostada",
-          price: 150
-        },
+        // {
+        //   name: "Pan Francés tres leches",
+        //   description: "Pan brioche caramelizado, leche condensada,\nfrutos rojos y crema batida",
+        //   price: 140
+        // },
+        // {
+        //   name: "Pan Francés en syrup de frutos rojos",
+        //   description: "Pan brioche caramelizado, reducción de vino tinto\ncon azúcar mascabado, frutos rojos y crema\nmontada",
+        //   price: 150
+        // },
+        // {
+        //   name: "Tiramisú",
+        //   description: "Crema de queso mascarpone, cocoa, soletas con\nlicor de café, cocoa y palanqueta de pepita tostada",
+        //   price: 150
+        // },
       ],
       "Refrescos": [
         { name: 'Coca-Cola', description: '', price: 45 },
@@ -533,11 +533,11 @@ export const restaurantes = [
         { name: 'Verde', description: 'Pepino, jengibre, nopal, espinaca, piña y apio', price: 65 },
         { name: 'Energizante', description: 'Naranja, mango, jengibre y piña', price: 65 },
       ],
-      "Shakes": [
-        { name: 'Vainilla', description: '', price: 85 },
-        { name: 'Fresa', description: '', price: 85 },
-        { name: 'Chocolate', description: '', price: 85 },
-      ],
+      // "Shakes": [
+      //   { name: 'Vainilla', description: '', price: 85 },
+      //   { name: 'Fresa', description: '', price: 85 },
+      //   { name: 'Chocolate', description: '', price: 85 },
+      // ],
     },
     deliveryLinks: {
       uberEats: "//uber",
@@ -556,11 +556,11 @@ export const restaurantes = [
           description: 'Papa horneada a fuego lento, con crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Maasdam',
           price: 170
         },
-        {
-          name: 'Horneada con Ragú',
-          description: 'Papa horneada a fuego lento, con Ragú de res y cerdo con cocción a fuego lento, crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Maasdam',
-          price: 185
-        },
+        // {
+        //   name: 'Horneada con Ragú',
+        //   description: 'Papa horneada a fuego lento, con Ragú de res y cerdo con cocción a fuego lento, crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Maasdam',
+        //   price: 185
+        // },
         {
           name: 'Con Salami Piamontés',
           description: 'Papa horneada a fuego lento, con Salami Piamontés Cotto de primera calidad, con cocción a fuego lento, crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Maasdam',
@@ -616,23 +616,23 @@ export const restaurantes = [
           price: 195
         }
       ],
-      "Lo Dulce": [
-        {
-          name: 'Pan Francés tres leches',
-          description: 'Pan brioche caramelizado, leche condensada, frutos rojos y crema batida',
-          price: 140
-        },
-        {
-          name: 'Pan Francés en syrup de frutos rojos',
-          description: 'Pan brioche caramelizado, reducción de vino tinto, con azúcar mascabado, frutos rojos y crema montada',
-          price: 150
-        },
-        {
-          name: 'Fresas con crema',
-          description: 'Maceradas en balsámico y miel de abeja, crema de mascarpone, crumble de nuez y pepita, foam de fresa',
-          price: 150
-        },
-      ],
+      // "Lo Dulce": [
+      //   {
+      //     name: 'Pan Francés tres leches',
+      //     description: 'Pan brioche caramelizado, leche condensada, frutos rojos y crema batida',
+      //     price: 140
+      //   },
+      //   {
+      //     name: 'Pan Francés en syrup de frutos rojos',
+      //     description: 'Pan brioche caramelizado, reducción de vino tinto, con azúcar mascabado, frutos rojos y crema montada',
+      //     price: 150
+      //   },
+      //   {
+      //     name: 'Fresas con crema',
+      //     description: 'Maceradas en balsámico y miel de abeja, crema de mascarpone, crumble de nuez y pepita, foam de fresa',
+      //     price: 150
+      //   },
+      // ],
       "Refrescos": [
         { name: 'Coca-Cola', description: '', price: 45 },
         { name: 'Coca-Cola Cero', description: '', price: 45 },
@@ -641,11 +641,11 @@ export const restaurantes = [
         { name: 'Mundet', description: '', price: 45 },
         { name: 'Sprite', description: '', price: 45 },
       ],
-      "Shakes": [
-        { name: 'Vainilla', description: '', price: 85 },
-        { name: 'Fresa', description: '', price: 85 },
-        { name: 'Chocolate', description: '', price: 85 },
-      ]
+      // "Shakes": [
+      //   { name: 'Vainilla', description: '', price: 85 },
+      //   { name: 'Fresa', description: '', price: 85 },
+      //   { name: 'Chocolate', description: '', price: 85 },
+      // ]
     },
     deliveryLinks: {
       uberEats: "//uber",
