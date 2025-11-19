@@ -8,12 +8,12 @@ function ComingSoonApp() {
             Chef At Home App
           </h2>
           <h2 className="font-lora text-5xl text-gold mb-2 italic">
-            ¡GRAN INAUGURACIÓN 14 NOVIEMBRE!
+            ¡GRAN PROMO DE APERTURA, 2x1 EN TODAS NUESTRAS SMASHED BURGERS!
           </h2>
         </div>
 
         <p className="font-lora text-white text-base uppercase tracking-[0.25em] mb-8">
-          SERVICIO A DOMICILIO DE MIÉRCOLES A DOMINGO DE 8 AM a 9:45 PM
+          SERVICIO A DOMICILIO DE MIÉRCOLES A DOMINGO DE 8 AM a 9:00 PM
         </p>
 
         {/* Subtítulo */}

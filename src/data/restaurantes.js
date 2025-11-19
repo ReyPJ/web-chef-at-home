@@ -317,11 +317,7 @@ export const restaurantes = [
           description: 'Pasta Penne bañada en salsa blanca con queso parmigiano e pecorino y terminada con pimienta negra.',
           price: 235
         },
-        {
-          name: 'Caserecce Cacio e Pepe',
-          description: 'Pasta Penne bañada en salsa blanca con queso parmigiano e pecorino y terminada con pimienta negra.',
-          price: 235
-        },
+
         // {
         //   name: 'Lasagna Bolognese',
         //   description: 'Lasagna con base de ragú de la casa de res y cerdo, salsa bechamel y pomodoro, acompañada con perejil y parmigiano.',
@@ -417,39 +413,39 @@ export const restaurantes = [
         {
           name: 'Clásica',
           description: 'Pan Brioche hecho en casa, Carne molida CAB\n(Certified Angus Beef), queso de oveja de rancho,\ncebolla, lechuga, jitomate bola, papas a la francesa,\ny aderezo de la casa con pepinillos, toque de\nTabasco y Mayo',
-          price: 195
+          price: 180
         },
         {
           name: 'Con Pancetta Ahumada',
           description: 'Pan Brioche hecho en casa, Carne molida CAB\n(Certified Angus Beef), queso de oveja de rancho,\ncebolla, lechuga, jitomate bola, papas a la francesa,\nTOCINETA AHUMADA AL GRILL, y aderezo de la\ncasa con pepinillos, toque de Tabasco y Mayo',
-          price: 205
+          price: 185
         },
         {
           name: 'Hawaiana',
           description: 'Pan Brioche hecho en casa, Carne molida CAB\n(Certified Angus Beef), queso de oveja de rancho,\ncebolla, lechuga, jitomate bola, papas a la francesa,\nEBANADA DE PIÑA Y JAMÓN DE YORK AL GRILL,\ny aderezo de la casa con pepinillos, toque de\nTabasco y Mayo',
-          price: 210
+          price: 185
         },
         {
           name: 'Smashed BBQ',
           description: 'Pan Brioche hecho en casa, Carne molida CAB\n(Certified Angus Beef), queso de oveja de rancho,\ncebolla, lechuga, jitomate bola, papas a la francesa,\ntocineta ahumada, CEBOLLA CARAMELIZADA Y\nSALSA BBQ hecha en casa, aderezo de la casa\ncon pepinillos, toque de Tabasco y Mayo',
-          price: 210
+          price: 195
         },
         {
           name: 'Vegetariana Gourmet',
           description: 'Pan Brioche hecho en casa, PORTOBELLO\nLACQUEADO CON SOYA Y BALSÁMICO, QUESO\nAZUL, cebolla, lechuga, jitomate bola, papas a la\nfrancesa y aderezo de la casa con pepinillos, toque\nde Tabasco y Mayo',
-          price: 210
+          price: 195
         },
         {
-          name: 'Triple Cheese Bruger',
-          description: 'Pan Brioche hecho en casa, TRIPLE CARNE CAB, TRIPLE QUESO DE OVEJA GRATINDO cebolla, lechuga, jitomate bola, papas a la francesa y aderezo de la casa con pepinillos, toque de Tabasco y Mayo',
-          price: 250
+          name: 'Double Cheese Bruger',
+          description: 'Pan Brioche hecho en casa, DOBLE CARNE CAB, TRIPLE QUESO DE OVEJA GRATINDO cebolla, lechuga, jitomate bola, papas a la francesa y aderezo de la casa con pepinillos, toque de Tabasco y Mayo',
+          price: 220
         },
       ],
       "Hot Dogs y extras": [
         {
           name: 'Hot Dog clásico',
           description: 'Pan Brioche de Hot Dog hecho en casa, salchicha Oscar Mayer al grill con tocino, cebolla, caramelizada y Aderezo de la casa con pepinillos, toque de Tabasco y Mayo, papas a la francesa',
-          price: 185
+          price: 165
         },
         // {
         //   name: 'Cangre-Jocho!',
@@ -459,31 +455,31 @@ export const restaurantes = [
         {
           name: 'Deditos de Queso',
           description: 'Queso Mozzarella empanizado con panko Japones, servido con salsa pomodoro y papas a la francesa',
-          price: 185
+          price: 165
         },
         {
           name: 'Papas a la francesa',
           description: 'Crujientes papas a la francesa (140gr en crudo) acompañadas con nuestro aderezo de la casa',
-          price: 140
+          price: 120
         }
       ],
       "Ensaladas": [
         {
           name: 'Ensalada Verde',
           description: 'Hojas de lechuga, arúgula, finas lajas de queso\nparmesano, aguacate tatemado, vinagreta de limón\nEureka',
-          price: 175
+          price: 165
         },
         {
           name: 'Ensalada Cítrica "Smash',
           description: 'Hojas de lechuga, arúgula, queso de cabra, nuez,\nsuprema de cítricos, aceite de oliva, aderezo de mie\ny mostaza',
-          price: 195
+          price: 185
         },
       ],
       "Aves y Carnes": [
         {
-          name: "Pechuga de Pollo Empanizada",
-          description: "Con Pasta Fetuccine hecha en casa en salsa\ncremosa de chipotle, aguacate, papas a la francesa\ny aderezo de la casa",
-          price: 320
+          name: "Buttermilk Fried Chicken Sandwich!",
+          description: "Tierna pechuga de pollo marinada overnigth en suero de lechepara absorber sabor y ser extremadamente crujiente, servido con cebolla morada, lechuga, jitomate y aderezo de la casa",
+          price: 220
         },
         {
           name: "Filete de Res (250 gr) en salsa de tuétano",
@@ -519,7 +515,7 @@ export const restaurantes = [
         // },
       ],
       "Refrescos": [
-        { name: 'Coca-Cola', description: '', price: 45 },
+        { name: '', description: '', price: 45 },
         { name: 'Coca-Cola Cero', description: '', price: 45 },
         { name: 'Coca-Cola Light', description: '', price: 45 },
         { name: 'Agua Mineral', description: '', price: 45 },
@@ -554,66 +550,61 @@ export const restaurantes = [
         {
           name: 'Clásica',
           description: 'Papa horneada a fuego lento, con crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Maasdam',
-          price: 170
+          price: 135
         },
-        // {
-        //   name: 'Horneada con Ragú',
-        //   description: 'Papa horneada a fuego lento, con Ragú de res y cerdo con cocción a fuego lento, crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Maasdam',
-        //   price: 185
-        // },
         {
-          name: 'Con Salami Piamontés',
-          description: 'Papa horneada a fuego lento, con Salami Piamontés Cotto de primera calidad, con cocción a fuego lento, crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Maasdam',
-          price: 185
+          name: 'Horneada con Ragú',
+          description: 'Papa horneada a fuego lento, con Ragú de res y cerdo con cocción a fuego lento, crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Maasdam',
+          price: 150
         },
         {
           name: 'Con Salami Piamontés',
           description: 'Papa horneada a fuego lento, con Salami Piamontés Cotto de primera calidad, con cocción a fuego lento, crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Maasdam',
-          price: 185
+          price: 150
         },
         {
           name: 'Papa horneada con Salchicha',
           description: 'Papa horneada a fuego lento, con Salchciha salteada y cebolla caramelizada, con cocción a fuego lento, crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Massdam',
-          price: 175
+          price: 140
         },
         {
           name: 'Papa horneada 4 Quesos',
           description: 'Papa horneada a fuego lento, con queso Gorgonzola, queso Provoleta ahumada, con cocción a fuego lento, crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Maasdam',
-          price: 215
+          price: 165
         },
         {
           name: 'Papa horneada 4 con Champiñones y Jamón de York',
           description: 'Papa horneada a fuego lento, con champiñones salteados y jamón rostizado, con cocción a fuego lento, crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Maasdam',
-          price: 185
+          price: 150
         },
         {
           name: 'Papa horneada con Milanesa de pechuga de pollo',
           description: 'Papa horneada a fuego lento, con Milanesa de pechuga de pollo, con cocción a fuego lento, crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Maasdam',
-          price: 185
+          price: 155
         },
         {
           name: 'Papa horneada con Arrachera Rostizada',
           description: 'Papa horneada a fuego lento, con Arrachera rostizada, con cocción a fuego lento, crème fraîche, cebollín y un toque de mantequilla, gratinadas en horno de piedra con queso Manchego y Maasdam',
-          price: 195
+          price: 165
         },
       ],
       "Antojitos": [
         {
           name: 'Deditos de Queso',
           description: 'Queso Mozzarella empanizado con panko Japonés, servidos con salsa pomodoro y papas a la francesa',
-          price: 170
+          price: 155
         }
       ],
       "Ensaladas": [
         {
           name: 'Ensalada Verde',
           description: 'Hojas de lechuga, arúgula, finas lajas de queso, parmesano, aguacate tatemado, vinagreta de limón Eureka',
-          price: 175
+          price: 165
         },
         {
           name: 'Ensalada Cítrica del Chef',
           description: 'Hojas de lechuga, arúgula, queso de cabra, nuez, suprema de cítricos, aceite de oliva, aderezo de miel y mostaza',
-          price: 195
+          price: 185
         }
       ],
       // "Lo Dulce": [
@@ -773,7 +764,7 @@ export const restaurantes = [
           price: 55
         },
         {
-          name: 'Ascorga',
+          name: 'Astorga',
           description: '',
           price: 55
         },
